@@ -12,7 +12,7 @@ tags:
   - Web API
 
 ---
-One of the important things to consider when building an API is a strategy for versioning the API to manage changes.&nbsp; There are several reasons this is important:
+One of the important things to consider when building an API is a strategy for versioning the API to manage changes. There are several reasons this is important:
 
 * To support users (developers) of the API that are using an existing version so as not to force breaking changes on them. 
 * To prevent breaking existing versions of the client applications that are using an existing version of the API.
@@ -31,11 +31,11 @@ There are multiple ways to indicate the version of the API:
 * Specify the version as a special request header, for example:  
   > **X-API-VERSION: 3**  
 
-There are pros and cons of each approach, and have been <a href="http://www.lexicalscope.com/blog/2012/03/12/how-are-rest-apis-versioned/" target="_blank">extensively discussed on the Internet</a> with religious fervor.&nbsp; I recently attended a [nice talk by Michael Pratt on how to version or not version your API][1] (be sure to use down arrows for pros and cons for each strategy). The best approach is to pick a strategy that best fits your use cases and to stick with it for consistency.
+There are pros and cons of each approach, and have been [extensively discussed on the Internet](http://www.lexicalscope.com/blog/2012/03/12/how-are-rest-apis-versioned/) with religious fervor. I recently attended a [nice talk by Michael Pratt on how to version or not version your API][1] (be sure to use down arrows for pros and cons for each strategy). The best approach is to pick a strategy that best fits your use cases and to stick with it for consistency.
 
 ### Adding Versioning to ASP.Net Web API
 
-There are no versioning capabilities provided by the ASP.Net Web API out of the box. However there is a nice Nuget package called **<a href="http://nuget.org/packages/SDammann.WebApi.Versioning/" target="_blank">SDammann.WebApi.Versioning</a>** by [Sebastiaan Dammann][2] that extends the Web API with a versioning framework. The package is flexible in that it allows the API developer to choose one of the strategies mentioned above for the API versioning.&nbsp; This article will show how to set up the framework on a project.
+There are no versioning capabilities provided by the ASP.Net Web API out of the box. However there is a nice Nuget package called [SDammann.WebApi.Versioning](http://nuget.org/packages/SDammann.WebApi.Versioning/) by [Sebastiaan Dammann][2] that extends the Web API with a versioning framework. The package is flexible in that it allows the API developer to choose one of the strategies mentioned above for the API versioning. This article will show how to set up the framework on a project.
 
 #### Setting Up the Project
 
@@ -69,7 +69,7 @@ The **{version}** integer variable after the “v” will be utilized by the pac
 
 #### Managing Controllers to Avoid Duplication
 
-One of the downsides of this approach is that it could cause a lot of code duplication if the entire controllers are copied to a new namespace each time a version is added. One approach to reduce besides keeping the controllers “skinny” is to add a base class for each controller and implement overrides for the version where needed.&nbsp; For example the Controllers folder would look something like this:
+One of the downsides of this approach is that it could cause a lot of code duplication if the entire controllers are copied to a new namespace each time a version is added. One approach to reduce besides keeping the controllers “skinny” is to add a base class for each controller and implement overrides for the version where needed. For example the Controllers folder would look something like this:
 
 ![Code example](http://www.culbertsonexchange.com/wp/wp-content/uploads/2013/05/image.png)
 
@@ -87,7 +87,7 @@ namespace ResearchLinks.Controllers
         // GET /api/projects/4/researchItems
         public virtual HttpResponseMessage Get(int projectId)
         {
-            var researchItems = new List&lt;ResearchItem&gt;();
+            var researchItems = new List<ResearchItem>();
             var project = new Project();
             // Rest of implementation ommitted...
         }
@@ -114,7 +114,7 @@ namespace ResearchLinks.Controllers.Version1
 {{< / highlight >}}
 
 
-Then for Version2 we can override the methods that will be affected by a change and ignore the other methods that will be inherited from the base class. For example say we need to add a new Boolean property to the Project model called “IsUrgent”. We don’t want it to affect Version1 users but we do want it to be mandatory for Version2.&nbsp; We can add this property to the model as a nullable Boolean property and not add any Required attributes so as not to disturb Version1 usage:
+Then for Version2 we can override the methods that will be affected by a change and ignore the other methods that will be inherited from the base class. For example say we need to add a new Boolean property to the Project model called “IsUrgent”. We don’t want it to affect Version1 users but we do want it to be mandatory for Version2. We can add this property to the model as a nullable Boolean property and not add any Required attributes so as not to disturb Version1 usage:
 
 {{< highlight "C#" >}}
     public class Project

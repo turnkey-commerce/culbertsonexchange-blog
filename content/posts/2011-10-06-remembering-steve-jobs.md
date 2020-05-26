@@ -12,7 +12,7 @@ tags:
   - Steve Jobs
 
 ---
-[<img style="margin: 3px 10px 3px 0px;padding-left: 0px;padding-right: 0px;padding-top: 0px;border-width: 0px" src="http://www.culbertsonexchange.com/wp/wp-content/uploads/2011/10/jobs_billboard_different_thumb.jpg" alt="jobs_billboard_different" width="642" height="182" border="0" />][1]
+![Steve Jobs Billboard Different][1]
 
 Steve brought a lot of greatness to the world. I remember buying my first Apple computer back in early ‘82.  It was an [Apple II-Plus][2] and I remember how cool it was that it did color graphics with a TV output. My brother and I were playing the [Swashbuckler][3] game right after we got it out of the box. It was also fun and easy to program in [Applesoft Basic][4]. Then along came the [Apple IIc][5] which was small and easy to haul around, although it wasn’t a true laptop. I then got distracted by the “[Amiga][6]” computer and didn’t buy another Apple product for a while but we bought an [iPad][7] last year and have really enjoyed it.
 

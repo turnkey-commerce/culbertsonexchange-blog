@@ -16,11 +16,11 @@ The [SpecFlow][1] project provides a useful way to integrate BDD (Behavior Drive
 
 ### WatiN
 
-Steve Sanderson wrote a nice article about applying [SpecFlow with ASP.Net MVC][2].&nbsp; In this case he used the [WatiN][3] tool to drive the tests through a browser. I implemented a similar testing setup on a project using SpecFlow and WatiN but found that driving an actual browser made the tests too slow. 
+Steve Sanderson wrote a nice article about applying [SpecFlow with ASP.Net MVC][2] In this case he used the [WatiN][3] tool to drive the tests through a browser. I implemented a similar testing setup on a project using SpecFlow and WatiN but found that driving an actual browser made the tests too slow. 
 
 ### HtmlUnit
 
-A later article from Sanderson describes a way to use [HtmlUnit for a “headless browser automation”][4] approach to testing.&nbsp; This approach is faster but requires using the IKVM method of linking Java within .NET. To ease this aspect of it there is a Nuget package called [NHtmlUnit][5].&nbsp; I did a small spike with NHtmlUnit but found it slower than I expected but faster than the WatiN approach. 
+A later article from Sanderson describes a way to use [HtmlUnit for a “headless browser automation”][4] approach to testing This approach is faster but requires using the IKVM method of linking Java within .NET. To ease this aspect of it there is a Nuget package called [NHtmlUnit][5] I did a small spike with NHtmlUnit but found it slower than I expected but faster than the WatiN approach. 
 
 ### SimpleBrowser
 
@@ -28,24 +28,35 @@ I found a project on GitHub called [SimpleBrowser][6] by Nathan Ridley which off
 
 For example a typical SpecFlow scenario for user login:
 
-<font size="2" face="Courier New">&nbsp;&nbsp;&nbsp; <font face="Consolas"><font size="3"><strong><font color="#008000">Feature</font></strong>: Log On<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In order to access the features of the website<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As a user<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I want to be able to log On.</font></font></font>
+{{< highlight "C#" >}}
+    Feature: Log On
+       In order to access the features of the website
+       As a user
+       I want to be able to log On.
 
-<font face="Consolas">&nbsp;&nbsp;&nbsp; <strong><font color="#008000">Scenario</font></strong>: Log On User<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><font color="#008000">Given</font></strong> I am on the Login Page<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><font color="#008000">When</font></strong> I enter my username and password<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><font color="#008000">And</font> </strong>I click the Log On button<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong><font color="#008000">Then</font></strong> I am on the Home Page Logged In</font>
+    Scenario: Log On User
+       Given I am on the Login Page
+       When I enter my username and password
+       And I click the Log On button
+       Then I am on the Home Page Logged In
+{{< / highlight >}}
 
 The tooling that SpecFlow provides for Visual Studio creates a method stub for the tests steps, which can then be filled in to use the SimpleBrowser methods. For example for the first step of being on the Registration page, after filling in the test method with the SimpleBrowser calls:
 
-<pre class="brush: csharp; title: ; notranslate" title="">[Given(@"I am on the Login Page")]
+{{< highlight "C#" >}}
+[Given(@"I am on the Login Page")]
 public void GivenIAmOnTheLoginPage() {
      WebBrowser.Current.Navigate("http://localhost:51044/Account/LogOn");
      Assert.IsTrue(WebBrowser.Current.Find("h2", FindBy.Text, "Log On").Exists);
 }
-</pre>
+{{< / highlight >}}
 
-The method is linked to the scenario step via the attribute [Given(…)] and the body of the method uses the SimpleBrowser “Navigate” method to load the page.&nbsp; Then the “Assert” tests that the SimpleBrowser has indeed loaded the log on page by finding an “h2” tag where its inner text is “Log On”.
+The method is linked to the scenario step via the attribute [Given(…)] and the body of the method uses the SimpleBrowser “Navigate” method to load the page Then the “Assert” tests that the SimpleBrowser has indeed loaded the log on page by finding an “h2” tag where its inner text is “Log On”.
 
 The “WebBrowser.Current” is a static class that holds the SimpleClass browser instance within the SpecFlow ScenarioContext so that it can maintain state between steps, especially after a login:
 
-<pre class="brush: csharp; title: ; notranslate" title="">[Binding]
+{{< highlight "C#" >}}
+[Binding]
 public static class WebBrowser {
    public static Browser Current {
        get {
@@ -55,26 +66,28 @@ public static class WebBrowser {
        }
    }
 }
-</pre>
+{{< / highlight >}}
 
 The &#8220;new Browser();” is where the SimpleBrowser Browser class is created.
 
 Steps such as clicking on the Log On button are easy to accomplish with the Click() method:
 
-<pre class="brush: csharp; title: ; notranslate" title="">[When(@"I click the Log On button")]
+{{< highlight "C#" >}}
+[When(@"I click the Log On button")]
 public void WhenIClickTheLogOnButton() {
     WebBrowser.Current.Find("input", FindBy.Value, "Log On").Click();
 }
-</pre>
+{{< / highlight >}}
 
 There is also an overload for the Find() method that allows a shortcut if there is an “id” attribute within the html element. For example if there is are “id” elements with UserName and Password for those input elements, then the step for filling in the form fields is simple:
 
-<pre class="brush: csharp; title: ; notranslate" title="">[When(@"I enter my username and password")]
+{{< highlight "C#" >}}
+[When(@"I enter my username and password")]
 public void WhenIEnterMyUsernameAndPassword() {
     WebBrowser.Current.Find("UserName").Value = "user";
     WebBrowser.Current.Find("Password").Value = "password";
 }
-</pre>
+{{< / highlight >}}
 
 ### Conclusion
 
