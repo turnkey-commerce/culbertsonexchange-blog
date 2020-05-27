@@ -14,11 +14,11 @@ tags:
 ---
 ### Problem with Current Membership/Role Provider
 
-I’ve always thought the default membership/role provider for ASP.Net is a bit heavy in that it is targeted by default to a different database than the main application database and takes several additional steps to set up and deploy. I found the <a href="http://altairiswebsecurity.codeplex.com/" target="_blank">Altairis Web Security Toolkit</a> on CodePlex and it has a nice, simple schema that is easy to integrate that into your application database. It is also available from Nuget as _<a href="http://www.nuget.org/List/Packages/Altairis.Web.Security" target="_blank">Altairis.Web.Security</a>_. 
+I’ve always thought the default membership/role provider for ASP.Net is a bit heavy in that it is targeted by default to a different database than the main application database and takes several additional steps to set up and deploy. I found the [Altairis Web Security Toolkit](http://altairiswebsecurity.codeplex.com/) on CodePlex and it has a nice, simple schema that is easy to integrate that into your application database. It is also available from Nuget as [Altairis.Web.Security](http://www.nuget.org/List/Packages/Altairis.Web.Security). 
 
 ### Working with the EF Magic Unicorn Edition
 
-[<img style="border-right-width: 0px;margin: 3px 10px 3px 0px;padding-left: 0px;padding-right: 0px;border-top-width: 0px;border-bottom-width: 0px;border-left-width: 0px;padding-top: 0px" border="0" alt="unicorn07" src="http://www.culbertsonexchange.com/wp/wp-content/uploads/2011/04/unicorn07_thumb.gif" width="80" height="72" />][1]The new Entity Framework Code First, also known as the “<a href="http://www.hanselman.com/blog/SimpleCodeFirstWithEntityFramework4MagicUnicornFeatureCTP4.aspx" target="_blank">EF Magic Unicorn Edition</a>” provides a nice way to generate the database and the ORM from POCO (Plain Old CLR Objects) classes that you write up front. This gives a nice “<a href="http://weblogs.asp.net/scottgu/archive/2010/07/16/code-first-development-with-entity-framework-4.aspx" target="_blank">code first</a>” approach where the domain objects drive the database rather than vice-versa (also known as “persistence ignorance”). 
+![1]The new Entity Framework Code First, also known as the [EF Magic Unicorn Edition](http://www.hanselman.com/blog/SimpleCodeFirstWithEntityFramework4MagicUnicornFeatureCTP4.aspx)” provides a nice way to generate the database and the ORM from POCO (Plain Old CLR Objects) classes that you write up front. This gives a nice “[code first](http://weblogs.asp.net/scottgu/archive/2010/07/16/code-first-development-with-entity-framework-4.aspx)” approach where the domain objects drive the database rather than vice-versa (also known as “persistence ignorance”). 
 
 With the current edition of Magic Unicorn the database is constantly being regenerated during development, which interrupts the workflow to do the additional step of adding the membership/role tables. And even if that’s not too much trouble the membership/role tables aren’t accessible to the code first EF context for access by the application.
 
@@ -34,7 +34,8 @@ To implement this I did the following steps for an MVC3 project:
     EntityFramework 
   3. Create User and Role classes and include them in a class that defines the EF context. In the context class I did a few special things to make sure that the many-to-many table for the roles was generated correctly: 
 
-<pre class="brush: csharp; title: ; notranslate" title="">public class ApplicationDB : DbContext
+{{< highlight "C#" >}}
+public class ApplicationDB : DbContext
 {
     public DbSet&lt;User&gt; Users { get; set; }
     public DbSet&lt;Role&gt; Roles { get; set; }
@@ -52,11 +53,12 @@ To implement this I did the following steps for an MVC3 project:
         });
     }
 }
-</pre>
+{{< / highlight >}}
 
 Data may also be seeded into the initial database, for example to create some default roles. The commented out class definition can be utilized during development to recreate the database if the model changes: 
 
-<pre class="brush: csharp; title: ; notranslate" title="">// Change the base class as follows if you want to drop and create the database during development:
+{{< highlight "C#" >}}
+// Change the base class as follows if you want to drop and create the database during development:
 // public class DBInitializer : DropCreateDatabaseIfModelChanges&lt;ApplicationDB&gt; 
 public class DBInitializer : CreateDatabaseIfNotExists&lt;ApplicationDB&gt; 
 {
@@ -71,11 +73,12 @@ public class DBInitializer : CreateDatabaseIfNotExists&lt;ApplicationDB&gt;
         roles.ForEach(r =&gt; context.Roles.Add(r));
     }
 }
-</pre>
+{{< / highlight >}}
 
 The classes themselves are straightforward and can be decorated with attributes that integrate well with MVC:
 
-<pre class="brush: csharp; title: ; notranslate" title="">public class User {
+{{< highlight "C#" >}}
+public class User {
     [Key]
     [Required(ErrorMessage = "User Name is required")]
     [Display(Name="User Name")]
@@ -115,9 +118,10 @@ The classes themselves are straightforward and can be decorated with attributes 
     public virtual ICollection&lt;Role&gt; Roles { get; set; }
 
 }
-</pre>
+{{< / highlight >}}
 
-<pre class="brush: csharp; title: ; notranslate" title="">public class Role {
+{{< highlight "C#" >}}
+public class Role {
     [Key]
     [Display(Name = "Role Name")]
     [Required(ErrorMessage = "Role Name is required")]
@@ -126,13 +130,13 @@ The classes themselves are straightforward and can be decorated with attributes 
 
     public virtual ICollection&lt;User&gt; Users { get; set; }
 }
-</pre>
+{{< / highlight >}}
 
 Additional properties could be added to the User class and they wouldn’t interfere with the operation of the membership provider as long a they are not “Required” properties. 
 
-I wrote an example ASP.Net MVC3 application and it is available for download at Github: <a href="https://github.com/turnkey-commerce/CodeFirstAltairis/archives/master" target="_blank">Download Code</a>
+I wrote an example ASP.Net MVC3 application and it is available for download at Github: [Download Code](https://github.com/turnkey-commerce/CodeFirstAltairis)
 
 **Update:** I found an issue with database initialization if the model is changed and the EF data access is not initialized before the classic ADO.Net access provided by Altairis. See [this post][2] for more information.
 
- [1]: http://www.culbertsonexchange.com/wp/wp-content/uploads/2011/04/unicorn07.gif
- [2]: http://www.culbertsonexchange.com/wp/?p=148
+ [1]: /wp/wp-content/uploads/2011/04/unicorn07.gif
+ [2]: /?p=148

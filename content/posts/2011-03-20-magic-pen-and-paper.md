@@ -9,9 +9,9 @@ categories:
   - Software Development
 
 ---
-I bought a magic gadget from Best Buy called the <a href="http://www.livescribe.com/en-us/" target="_blank">LiveScribe</a> smart pen and paper after watching a colleague using it for making notes during a meeting. 
+I bought a magic gadget from Best Buy called the [LiveScribe](http://www.livescribe.com/en-us/) smart pen and paper after watching a colleague using it for making notes during a meeting. 
 
-<img style="border-bottom: 0px;border-left: 0px;margin: 3px 10px 3px 0px;padding-left: 0px;padding-right: 0px;border-top: 0px;border-right: 0px;padding-top: 0px" border="0" alt="Magic Pen" src="http://www.culbertsonexchange.com/wp/wp-content/uploads/2011/03/magic_pen2.jpg" width="404" height="284" />
+![Magic Pen](/wp/wp-content/uploads/2011/03/magic_pen2.jpg)
 
 ### Technology
 
@@ -30,6 +30,6 @@ Besides capturing design it would also be very useful for:
 
 These videos are useful for seeing what it can do:
 
-<a href="http://www.youtube.com/watch?v=OU_RKv5zemM" target="_blank">LiveScribe Pulse Pen Review Part I</a>
+[LiveScribe Pulse Pen Review Part I](http://www.youtube.com/watch?v=OU_RKv5zemM)
 
-<a href="http://www.youtube.com/watch?v=GoKYAO5cpOU" target="_blank">LiveScribe Pulse Pen Review Part II</a>
+[LiveScribe Pulse Pen Review Part II](http://www.youtube.com/watch?v=GoKYAO5cpOU)
