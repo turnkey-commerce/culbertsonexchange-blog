@@ -23,8 +23,8 @@ Use the following steps to make this happen:
   6. Select &#8220;Tools.ExternalCommandN&#8221; (Where N is its order in the External Tools list).
   7. Fill out the rest of it as shown in the bottom image below. If the F1 command is already taken by the existing Help then disable it in the Help.F1Help command.
 
-<a href="http://www.culbertsonexchange.com/wp/wp-content/uploads/2009/02/external_tools.png" target="_blank"><img src="http://www.culbertsonexchange.com/wp/wp-content/uploads/2009/02/external_tools-300x291.png" alt="" width="300" height="291" class="alignnone" /></a>
+{{< figure src="/wp/wp-content/uploads/2009/02/external_tools.png" alt="" >}}
 
-<a href="http://www.culbertsonexchange.com/wp/wp-content/uploads/2009/02/keymapping.png" target="_blank"><img src="http://www.culbertsonexchange.com/wp/wp-content/uploads/2009/02/keymapping-300x173.png" alt="" width="300" height="173" class="alignnone" /></a>
+{{< figure src="/wp/wp-content/uploads/2009/02/keymapping.png" alt="" >}}
 
 Now your help should come up very fast.
