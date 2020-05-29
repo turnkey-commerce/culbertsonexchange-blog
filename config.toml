@@ -20,6 +20,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   authorbox = false
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
+  customCSS = ["css/site.css"]
 
 [Params.logo]
   subtitle = "Discussions on topics of interest and application development…" # Logo subtitle

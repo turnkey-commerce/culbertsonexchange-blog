@@ -8,13 +8,9 @@ categories:
   - Science
 
 ---
-The following website at MIT has a cool visual illusion involving the shading of squares A and B that appear to the mind to be a much different shade. It&#8217;s hard to believe but they are exactly the same shade of gray.
+The following link shows a cool visual illusion involving the shading of squares A and B that appear to the mind to be a much different shade. It's hard to believe but they are exactly the same shade of gray.
 
-[ <img src='http://www.culbertsonexchange.com/wp/wp-content/uploads/2007/02/illusion.jpg' alt='Visual Illusion' align='left' />Checker Shadow Illusion][1]
+{{< figure src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Checker_shadow_illusion.svg/800px-Checker_shadow_illusion.svg.png" alt="Checker Shadow Illusion" >}}
 
-There are a few more posted here, be sure to allow popups at the site:
 
-[More Visual Illusions][2]
-
- [1]: http://web.mit.edu/persci/people/adelson/checkershadow_illusion.html
- [2]: http://web.mit.edu/persci/gaz/
+[Checker Shadow Illusion](https://en.wikipedia.org/wiki/Checker_shadow_illusion)
