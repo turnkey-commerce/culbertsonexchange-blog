@@ -8,7 +8,7 @@ categories:
   - Entertainment
 
 ---
-<img src="images/harryul.gif" alt="Harry Chapin" hspace="4" align="left" />I was thinking about [Harry Chapin][1] the other day. It was because Diane said something about Dayton, Ohio and it made me think about Harry&#8217;s _Mr. Tanner_ song (Mr. Tanner was a clothes cleaner from Dayton who aspired to be a singer). Harry was quite a guy and I had the pleasure of seeing him give a concert a few years before he died. He had a strong spirit for life and worked tirelessly to improve the plight of others. Unfortunately he died in 1981 in a fiery car accident. 
+{{< figure src="/images/harryul.gif" alt="Harry Chapin" class="right" >}}I was thinking about [Harry Chapin][1] the other day. It was because Diane said something about Dayton, Ohio and it made me think about Harry&#8217;s _Mr. Tanner_ song (Mr. Tanner was a clothes cleaner from Dayton who aspired to be a singer). Harry was quite a guy and I had the pleasure of seeing him give a concert a few years before he died. He had a strong spirit for life and worked tirelessly to improve the plight of others. Unfortunately he died in 1981 in a fiery car accident.
 
 I remember his sense of humor. During the concert he would implore people to clap along to one of the songs. He noticed a few weren&#8217;t clapping and said to try to clap along &#8220;even if you&#8217;re terminally cool&#8221;.
 
@@ -20,6 +20,17 @@ If you buy one of his albums be sure to check out &#8220;[Greatest Stories Live]
 
 &#8220;Harry, keep the change.&#8221;
 
+****
+
+One thought on “Do Something”
+
+{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}John  
+_November 23, 2004 at 10:33 am_
+
+>“The cat’s in the cradle”…definintely gives you pause to think everytime you hear it.
+
+****
+
  [1]: http://www.harrychapin.com/
- [2]: http://www.worldhungeryear.org/
+ [2]: https://whyhunger.org/
  [3]: http://www.amazon.com/exec/obidos/ASIN/B000002GYZ/qid=1101009790

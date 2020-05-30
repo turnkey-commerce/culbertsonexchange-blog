@@ -19,5 +19,16 @@ The photo of the earth and moon from Mars is particularly good.
 
 You can see all of the photo essays from this link: [The Big Picture][3]
 
+****
+
+One thought on ““The Big Picture” Features Martian Photos”
+
+{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}John C  
+_June 24, 2008 at 11:35 am_
+
+Those are some great pix!!!!!!
+
+****
+
  [2]: http://archive.boston.com/bigpicture/2008/06/martian_skies.html
  [3]: http://www.boston.com/bigpicture/

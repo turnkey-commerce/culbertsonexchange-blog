@@ -17,4 +17,4 @@ At this time it is also important to remember that as citizens we have a duty to
 ![Sacrifice][2]
 
  [1]: http://www.infoplease.com/ipa/A0004615.html
- [2]: images/sacrifice.jpg
+ [2]: /images/sacrifice.jpg

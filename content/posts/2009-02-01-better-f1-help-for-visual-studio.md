@@ -28,3 +28,15 @@ Use the following steps to make this happen:
 {{< figure src="/wp/wp-content/uploads/2009/02/keymapping.png" alt="" >}}
 
 Now your help should come up very fast.
+
+****
+
+One thought on “Better F1 Help for Visual Studio”
+
+{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}Fredrik Sjodin  
+_February 2, 2009 at 4:48 am_
+
+>Excellent tip!  
+Thanks James
+
+****

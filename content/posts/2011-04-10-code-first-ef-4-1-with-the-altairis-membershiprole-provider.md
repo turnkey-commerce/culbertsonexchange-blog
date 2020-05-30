@@ -14,11 +14,11 @@ tags:
 ---
 ### Problem with Current Membership/Role Provider
 
-I’ve always thought the default membership/role provider for ASP.Net is a bit heavy in that it is targeted by default to a different database than the main application database and takes several additional steps to set up and deploy. I found the [Altairis Web Security Toolkit](http://altairiswebsecurity.codeplex.com/) on CodePlex and it has a nice, simple schema that is easy to integrate that into your application database. It is also available from Nuget as [Altairis.Web.Security](http://www.nuget.org/List/Packages/Altairis.Web.Security). 
+I’ve always thought the default membership/role provider for ASP.Net is a bit heavy in that it is targeted by default to a different database than the main application database and takes several additional steps to set up and deploy. I found the [Altairis Web Security Toolkit](http://altairiswebsecurity.codeplex.com/) on CodePlex and it has a nice, simple schema that is easy to integrate that into your application database. It is also available from Nuget as [Altairis.Web.Security](http://www.nuget.org/List/Packages/Altairis.Web.Security).
 
 ### Working with the EF Magic Unicorn Edition
 
-![1]The new Entity Framework Code First, also known as the [EF Magic Unicorn Edition](http://www.hanselman.com/blog/SimpleCodeFirstWithEntityFramework4MagicUnicornFeatureCTP4.aspx)” provides a nice way to generate the database and the ORM from POCO (Plain Old CLR Objects) classes that you write up front. This gives a nice “[code first](http://weblogs.asp.net/scottgu/archive/2010/07/16/code-first-development-with-entity-framework-4.aspx)” approach where the domain objects drive the database rather than vice-versa (also known as “persistence ignorance”). 
+![1]The new Entity Framework Code First, also known as the [EF Magic Unicorn Edition](http://www.hanselman.com/blog/SimpleCodeFirstWithEntityFramework4MagicUnicornFeatureCTP4.aspx)” provides a nice way to generate the database and the ORM from POCO (Plain Old CLR Objects) classes that you write up front. This gives a nice “[code first](http://weblogs.asp.net/scottgu/archive/2010/07/16/code-first-development-with-entity-framework-4.aspx)” approach where the domain objects drive the database rather than vice-versa (also known as “persistence ignorance”).
 
 With the current edition of Magic Unicorn the database is constantly being regenerated during development, which interrupts the workflow to do the additional step of adding the membership/role tables. And even if that’s not too much trouble the membership/role tables aren’t accessible to the code first EF context for access by the application.
 
@@ -28,11 +28,11 @@ One solution, besides writing a provider from scratch, is to create code first c
 
 To implement this I did the following steps for an MVC3 project:
 
-  1. Start a new MVC3 web application project. 
-  2. Use the NuGet console to download the following packages:   
-    Altairis.Web.Security   
-    EntityFramework 
-  3. Create User and Role classes and include them in a class that defines the EF context. In the context class I did a few special things to make sure that the many-to-many table for the roles was generated correctly: 
+  1. Start a new MVC3 web application project.
+  2. Use the NuGet console to download the following packages:
+    Altairis.Web.Security
+    EntityFramework
+  3. Create User and Role classes and include them in a class that defines the EF context. In the context class I did a few special things to make sure that the many-to-many table for the roles was generated correctly:
 
 {{< highlight "C#" >}}
 public class ApplicationDB : DbContext
@@ -55,14 +55,14 @@ public class ApplicationDB : DbContext
 }
 {{< / highlight >}}
 
-Data may also be seeded into the initial database, for example to create some default roles. The commented out class definition can be utilized during development to recreate the database if the model changes: 
+Data may also be seeded into the initial database, for example to create some default roles. The commented out class definition can be utilized during development to recreate the database if the model changes:
 
 {{< highlight "C#" >}}
 // Change the base class as follows if you want to drop and create the database during development:
-// public class DBInitializer : DropCreateDatabaseIfModelChanges&lt;ApplicationDB&gt; 
-public class DBInitializer : CreateDatabaseIfNotExists&lt;ApplicationDB&gt; 
+// public class DBInitializer : DropCreateDatabaseIfModelChanges&lt;ApplicationDB&gt;
+public class DBInitializer : CreateDatabaseIfNotExists&lt;ApplicationDB&gt;
 {
-    protected override void Seed(ApplicationDB context) 
+    protected override void Seed(ApplicationDB context)
     {
         var roles = new List&lt;Role&gt;{
             new Role{RoleName = "Administrator"},
@@ -132,11 +132,131 @@ public class Role {
 }
 {{< / highlight >}}
 
-Additional properties could be added to the User class and they wouldn’t interfere with the operation of the membership provider as long a they are not “Required” properties. 
+Additional properties could be added to the User class and they wouldn’t interfere with the operation of the membership provider as long a they are not “Required” properties.
 
 I wrote an example ASP.Net MVC3 application and it is available for download at Github: [Download Code](https://github.com/turnkey-commerce/CodeFirstAltairis)
 
 **Update:** I found an issue with database initialization if the model is changed and the EF data access is not initialized before the classic ADO.Net access provided by Altairis. See [this post][2] for more information.
+
+****
+
+14 thoughts on “Code First EF 4.1 with the Altairis Membership/Role Provider”
+
+raj  
+_April 14, 2011 at 12:56 am_
+
+>How to identify the User table from the Membership provider?
+
+****
+
+James Culbertson  
+_April 14, 2011 at 7:10 am_
+
+>The membership provider in this example (Altairis) will automatically identify the User table as that’s how it has been defined. It’s possible that a different provider will look for a different table and columns so please note that this one is specific to Altairis. The Membership provider itself is defined in the web.config (see download code).
+
+****
+
+RWBrad  
+_April 24, 2011 at 9:51 pm_
+
+>How would you create some initial user in the DBInitializer routine?
+
+****
+
+James Culbertson  
+_April 24, 2011 at 10:02 pm_
+
+>@RWBrad: That’s a great question and it is definitely a chicken/egg thing as you’d like to create a user with an admin role to get started. I was working on a related issue on the follow-up post on how to force the DB re-creation before the membership provider is accessed as it can cause an error otherwise. It could be done by calling the membership provider directly in that method. I’ll try that and do a follow-up on it.  
+>**EDIT:** I did find that you could do this in the “Seed” class for the initializer. Here is an example:
+
+{{< highlight "C#" >}}
+MembershipCreateStatus status = new MembershipCreateStatus();
+Membership.CreateUser(“admin”, “password”, “admin@user.com”);
+if (status == MembershipCreateStatus.Success) {
+    // Add the role to it.
+    User user = context.Users.Find(“admin”);
+    Role role = context.Roles.Find(“Administrator”);
+    user.Roles = new List();
+    user.Roles.Add(role);
+}
+{{< / highlight >}}
+
+****
+
+Adam Nagle
+April 26, 2011 at 8:29 am
+I dug into the Altairis TableMembershipProvider Source Code and found another way to Seed user data. I needed to do it this way because my initializer lives down in my data access layer.
+
+using (var hmac = new System.Security.Cryptography.HMACSHA512())
+{
+passwordSalt = hmac.Key;
+passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+
+var users = new List
+{
+new User{ UserName = “testuser”, Email = “testuser@gmail.com”,
+PasswordHash = passwordHash,
+PasswordSalt = passwordSalt,
+IsApproved = true,
+DateCreated = DateTime.Now,
+DateLastPasswordChange = DateTime.Now,
+Roles = context.Roles.Where(x=>x.RoleName == “User”).ToList()
+}
+};
+users.ForEach(x => context.Users.Add(x));
+
+
+JamesPost author
+April 26, 2011 at 8:36 am
+@Adam,
+
+Thanks for sharing that more direct way to create the user!
+
+
+dc
+May 11, 2011 at 4:49 am
+Can we have add extra properties with Required attribute onto the User entity?
+
+
+JamesPost author
+May 12, 2011 at 8:45 pm
+@dc: Not on the User entity because it would cause the Membership provider to break on the create method. However, a workaround could be to add the properties as not required and then use a ViewModel for the controller/view to make the property required with an attribute in the ViewModel for the purpose of validation in the view. The ViewModel could then be mapped to the User Entity in the controller. There are tools such as Automapper that can help automate that mapping.
+
+
+Michiel
+August 3, 2011 at 8:23 am
+Great code. I made a NuGet package based on this code, check it out here:
+
+http://www.nuget.org/List/Packages/quickstart.mvc3.unity.ef.altairiswebsecurity
+
+
+JamesPost author
+August 3, 2011 at 1:31 pm
+@Michiel, Thanks for packaging that up, looks very cool! Great to have nice packages like that to start up a new project.
+
+
+Stuart
+November 3, 2011 at 1:07 am
+Adding role(s) to user(s) when seeding the DB…. stuck on this one for a bit.
+Just what I was after:
+user.Roles = new List();
+
+Thanks.
+
+
+Tim
+December 31, 2011 at 3:13 pm
+finally i found your post.it does help me a lot ,thanks a lot ,but i have one more question?how to init the database with .mdf format instead of scf .i played around with this few hours,can’t figure out,please help me.
+
+
+Tim
+December 31, 2011 at 3:56 pm
+dudu,i figured out myself ,thank ya
+
+
+JamesPost author
+December 31, 2011 at 7:55 pm
+Glad you got it figured out OK. You can control the database it creates or connects to in the connection string.
 
  [1]: /wp/wp-content/uploads/2011/04/unicorn07.gif
  [2]: /?p=148

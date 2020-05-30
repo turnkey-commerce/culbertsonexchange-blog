@@ -8,7 +8,7 @@ categories:
   - Science
 
 ---
-<img src="images/luecke.jpg" alt="Luecke Forest Carving" title="Luecke Forest Carving" align="right" hspace="5" />NASA is providing a free and interesting computer program called the WorldWind. It allows easy viewing and zooming in on satellite images. It also has features to show effects of climate and humans on the earth as well as allowing some 3D rendering. The effect is kind of like flying around the earth and zooming in on things. Some of the fun is seeing how your town looks from space.
+{{< figure src="/images/luecke.jpg" alt="Luecke Carving" class="right" >}}NASA is providing a free and interesting computer program called the WorldWind. It allows easy viewing and zooming in on satellite images. It also has features to show effects of climate and humans on the earth as well as allowing some 3D rendering. The effect is kind of like flying around the earth and zooming in on things. Some of the fun is seeing how your town looks from space.
 
 I was able to find this interesting image of a feature near Bastrop where a rancher cleared a bunch of trees to leave his name in huge letters, visible from space. The name is about 13,000&#8242; long by 3,100&#8242; high (2.5 miles long!). I&#8217;ve seen it a few times flying from Houston to Austin and it&#8217;s always a sight.
 

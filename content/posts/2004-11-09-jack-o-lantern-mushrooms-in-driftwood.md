@@ -18,6 +18,6 @@ Didn&#8217;t try to eat them, by the way. These mushrooms will make you **very**
 
 [This writer had the same results as I did][3] trying to observe the glowing mushrooms.
 
- [1]: images/jackolantern_mushrooms.jpg
- [2]: http://www.fcps.k12.va.us/StratfordLandingES/Ecology/mpages/jack_olantern.htm
- [3]: http://www.bluewillowpages.com/mushroomexpert/omphalotus_illudens.html
+ [1]: /images/jackolantern_mushrooms.jpg
+ [2]: https://en.wikipedia.org/wiki/Omphalotus_olearius
+ [3]: https://www.mushroomexpert.com/omphalotus_illudens.html
