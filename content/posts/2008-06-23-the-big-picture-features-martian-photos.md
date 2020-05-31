@@ -3,7 +3,8 @@ title: “The Big Picture” Features Martian Photos
 author: James
 type: post
 date: 2008-06-23T13:03:52+00:00
-url: /?p=44
+aliases:
+  - /permalink/p44
 categories:
   - Science
 tags:

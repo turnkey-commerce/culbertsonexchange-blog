@@ -3,7 +3,8 @@ title: Gravity Waves – LIGO Gallery
 author: James
 type: post
 date: 2008-07-12T13:44:23+00:00
-url: /?p=48
+aliases:
+  - /permalink/p48
 categories:
   - Science
 

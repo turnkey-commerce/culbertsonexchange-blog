@@ -3,7 +3,8 @@ title: Using SimpleBrowser with SpecFlow for BDD with ASP.NET MVC
 author: James
 type: post
 date: 2012-01-20T02:45:00+00:00
-url: /?p=249
+aliases:
+  - /permalink/p249
 categories:
   - Software Development
 tags:

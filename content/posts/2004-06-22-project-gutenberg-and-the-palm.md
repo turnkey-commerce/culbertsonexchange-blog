@@ -3,7 +3,8 @@ title: Project Gutenberg and the Palm
 author: James
 type: post
 date: 2004-06-23T03:51:09+00:00
-url: /?p=4
+aliases:
+  - /permalink/p4
 categories:
   - Internet
 

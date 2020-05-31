@@ -3,7 +3,8 @@ title: Tuesday Morning Hotroddin’!
 author: James
 type: post
 date: 2008-06-25T01:34:07+00:00
-url: /?p=46
+aliases:
+  - /permalink/p46
 categories:
   - Entertainment
   - General

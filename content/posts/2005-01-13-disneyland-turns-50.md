@@ -3,7 +3,8 @@ title: Disneyland Turns 50
 author: James
 type: post
 date: 2005-01-14T02:06:36+00:00
-url: /?p=21
+aliases:
+  - /permalink/p21
 categories:
   - Entertainment
 

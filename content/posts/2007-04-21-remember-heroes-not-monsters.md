@@ -3,7 +3,8 @@ title: Remember Heroes Not Monsters
 author: James
 type: post
 date: 2007-04-21T13:45:03+00:00
-url: /?p=42
+aliases:
+  - /permalink/p42
 categories:
   - General
 

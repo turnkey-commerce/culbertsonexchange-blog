@@ -6,6 +6,9 @@ theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
+[permalinks]
+  posts = "/:year/:month/:title/"
+
 [Author]
   name = "James Culbertson"
   #bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
@@ -16,7 +19,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   description = "Welcome to James Culbertson’s blog. James is a software engineer who lives in the Houston area with Cheryl, Gracie, and Stanley." # Description of your site
   opengraph = true
   twitter_cards = false
-  readmore = false # Show "Read more" button in list if true
+  readmore = true # Show "Read more" button in list if true
   authorbox = false
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
@@ -24,6 +27,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 
 [Params.logo]
   subtitle = "Discussions on topics of interest and application development…" # Logo subtitle
+  image = "/images/beal_st.jpg"
 
 [Params.sidebar]
   home = "right"   # Configure layout for home page

@@ -3,7 +3,8 @@ title: The Nature of Gravity
 author: James
 type: post
 date: 2007-01-30T02:58:55+00:00
-url: /?p=28
+aliases:
+  - /permalink/p28
 categories:
   - Science
 

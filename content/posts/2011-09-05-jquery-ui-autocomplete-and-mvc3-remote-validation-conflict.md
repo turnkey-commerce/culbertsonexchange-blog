@@ -3,7 +3,8 @@ title: JQuery UI Autocomplete and MVC3 Remote Validation Conflict
 author: James
 type: post
 date: 2011-09-05T18:44:36+00:00
-url: /?p=190
+aliases:
+  - /permalink/p190
 categories:
   - Software Development
 tags:

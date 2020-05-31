@@ -3,7 +3,8 @@ title: Better F1 Help for Visual Studio
 author: James
 type: post
 date: 2009-02-02T01:29:35+00:00
-url: /?p=50
+aliases:
+  - /permalink/p50
 categories:
   - Software Development
 tags:

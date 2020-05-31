@@ -3,7 +3,8 @@ title: XM Radio – Update
 author: James
 type: post
 date: 2007-02-25T03:42:22+00:00
-url: /?p=36
+aliases:
+  - /permalink/p36
 categories:
   - Entertainment
   - General

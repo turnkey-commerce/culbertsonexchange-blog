@@ -3,7 +3,8 @@ title: 'Hanselminutes Podcast: On Empathy with Leon Gersing the Ruby Buddha'
 author: James
 type: post
 date: 2012-06-23T18:40:30+00:00
-url: /?p=275
+aliases:
+  - /permalink/p275
 categories:
   - General
   - Software Development

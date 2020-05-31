@@ -3,7 +3,8 @@ title: Geminids Meteor Shower Peaks Monday Night
 author: James
 type: post
 date: 2004-12-12T19:43:46+00:00
-url: /?p=16
+aliases:
+  - /permalink/p16
 categories:
   - Science
 

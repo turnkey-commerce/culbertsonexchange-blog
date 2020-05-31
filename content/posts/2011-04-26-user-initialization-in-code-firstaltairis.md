@@ -3,7 +3,8 @@ title: User Initialization in Code First/Altairis
 author: James
 type: post
 date: 2011-04-27T00:46:45+00:00
-url: /?p=166
+aliases:
+  - /permalink/p166
 categories:
   - Uncategorized
 

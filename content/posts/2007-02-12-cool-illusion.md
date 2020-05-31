@@ -3,7 +3,8 @@ title: Cool Illusion
 author: James
 type: post
 date: 2007-02-12T13:52:32+00:00
-url: /?p=34
+aliases:
+  - /permalink/p34
 categories:
   - Science
 

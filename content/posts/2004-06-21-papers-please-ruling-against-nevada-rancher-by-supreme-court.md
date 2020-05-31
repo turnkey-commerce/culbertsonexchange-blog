@@ -3,7 +3,8 @@ title: Papers Please – Ruling Against Nevada Rancher By Supreme Court
 author: James
 type: post
 date: 2004-06-22T03:20:19+00:00
-url: /?p=7
+aliases:
+  - /permalink/p7
 categories:
   - Politics
 

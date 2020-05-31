@@ -3,7 +3,8 @@ title: NFL Coaches – What’s the Measure of a Coach?
 author: James
 type: post
 date: 2004-11-15T00:58:59+00:00
-url: /?p=12
+aliases:
+  - /permalink/p12
 categories:
   - Sports
 

@@ -3,7 +3,8 @@ title: Remembering Steve Jobs
 author: James
 type: post
 date: 2011-10-07T03:28:13+00:00
-url: /?p=221
+aliases:
+  - /permalink/p221
 categories:
   - General
   - Software Development

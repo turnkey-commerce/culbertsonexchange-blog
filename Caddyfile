@@ -1,0 +1,9 @@
+localhost:8080 {
+    root /home/james/caddy/website/public
+    log
+    errors /home/james/caddy/errors.log
+    rewrite {
+        if {path} has wp
+        to /permalink/p{?p}
+    }
+}

@@ -3,7 +3,8 @@ title: Frost Flowers
 author: James
 type: post
 date: 2009-12-06T03:39:48+00:00
-url: /?p=66
+aliases:
+  - /permalink/p66
 categories:
   - Science
 tags:

@@ -3,7 +3,8 @@ title: Rehab Nation
 author: James
 type: post
 date: 2007-02-12T04:33:33+00:00
-url: /?p=32
+aliases:
+  - /permalink/p32
 categories:
   - Entertainment
   - General

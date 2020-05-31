@@ -3,7 +3,8 @@ title: Jack O’ Lantern Mushrooms in Driftwood
 author: James
 type: post
 date: 2004-11-10T02:01:04+00:00
-url: /?p=11
+aliases:
+  - /permalink/p11
 categories:
   - Science
 

@@ -3,7 +3,8 @@ title: Cowboys Did Something
 author: James
 type: post
 date: 2004-12-08T01:23:04+00:00
-url: /?p=14
+aliases:
+  - /permalink/p14
 categories:
   - Sports
 

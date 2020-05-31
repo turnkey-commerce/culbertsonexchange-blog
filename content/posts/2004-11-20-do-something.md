@@ -3,7 +3,8 @@ title: Do Something
 author: James
 type: post
 date: 2004-11-21T03:25:38+00:00
-url: /?p=13
+aliases:
+  - /permalink/p13
 categories:
   - Entertainment
 

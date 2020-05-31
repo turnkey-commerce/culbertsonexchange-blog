@@ -3,7 +3,8 @@ title: Linode VPS Hosting
 author: James
 type: post
 date: 2010-08-31T23:55:59+00:00
-url: /?p=87
+aliases:
+  - /permalink/p87
 categories:
   - Internet
   - Software Development

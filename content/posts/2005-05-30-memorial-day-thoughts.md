@@ -3,7 +3,8 @@ title: Memorial Day Thoughts
 author: James
 type: post
 date: 2005-05-30T13:16:10+00:00
-url: /?p=23
+aliases:
+  - /permalink/p23
 categories:
   - General
 

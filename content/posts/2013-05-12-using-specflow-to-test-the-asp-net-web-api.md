@@ -3,7 +3,8 @@ title: Using SpecFlow to Test the ASP.Net Web API
 author: James
 type: post
 date: 2013-05-13T01:39:00+00:00
-url: /?p=293
+aliases:
+  - /permalink/p293
 categories:
   - Software Development
 tags:

@@ -3,7 +3,8 @@ title: Windows Live Writer
 author: James
 type: post
 date: 2009-10-11T19:36:37+00:00
-url: /?p=55
+aliases:
+  - /permalink/p55
 categories:
   - Internet
   - Software Development

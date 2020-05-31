@@ -3,7 +3,8 @@ title: Wikipedia – Open Source Encyclopedia
 author: James
 type: post
 date: 2004-06-22T03:20:26+00:00
-url: /?p=8
+aliases:
+  - /permalink/p8
 categories:
   - Internet
 

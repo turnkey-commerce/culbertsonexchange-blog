@@ -3,7 +3,8 @@ title: Adult ADD – The Latest Pusher Scare
 author: James
 type: post
 date: 2004-12-08T02:56:59+00:00
-url: /?p=15
+aliases:
+  - /permalink/p15
 categories:
   - Science
 

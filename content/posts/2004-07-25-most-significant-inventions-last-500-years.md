@@ -3,7 +3,8 @@ title: Most Significant Inventions – Last 500 Years
 author: James
 type: post
 date: 2004-07-26T03:52:01+00:00
-url: /?p=5
+aliases:
+  - /permalink/p5
 categories:
   - Science
 

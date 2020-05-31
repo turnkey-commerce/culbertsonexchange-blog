@@ -3,7 +3,8 @@ title: Buzzard Tower
 author: James
 type: post
 date: 2004-12-20T02:32:08+00:00
-url: /?p=17
+aliases:
+  - /permalink/p17
 categories:
   - Science
 

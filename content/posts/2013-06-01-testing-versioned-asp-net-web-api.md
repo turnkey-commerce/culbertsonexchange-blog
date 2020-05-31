@@ -3,7 +3,8 @@ title: Testing Versioned API’s in ASP.Net Web API
 author: James
 type: post
 date: 2013-06-01T18:33:38+00:00
-url: /?p=345
+aliases: 
+  - /permalink/p345
 categories:
   - Software Development
 tags:

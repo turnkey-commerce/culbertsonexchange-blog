@@ -3,7 +3,8 @@ title: Cloned Cat Running Around Big D
 author: James
 type: post
 date: 2004-12-24T01:57:24+00:00
-url: /?p=19
+aliases:
+  - /permalink/p19
 categories:
   - Science
 

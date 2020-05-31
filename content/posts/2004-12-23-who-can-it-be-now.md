@@ -3,7 +3,8 @@ title: Who Can it Be Now?
 author: James
 type: post
 date: 2004-12-24T01:16:58+00:00
-url: /?p=18
+aliases:
+  - /permalink/p18
 categories:
   - Entertainment
 

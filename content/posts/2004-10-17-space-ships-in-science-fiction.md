@@ -3,7 +3,8 @@ title: Space Ships in Science Fiction
 author: James
 type: post
 date: 2004-10-18T00:24:16+00:00
-url: /?p=9
+aliases:
+  - /permalink/p9
 categories:
   - Science
 

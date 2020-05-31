@@ -3,7 +3,8 @@ title: Financing Health Care For Needy Via Botox Tax
 author: James
 type: post
 date: 2004-06-21T23:00:16+00:00
-url: /?p=6
+aliases:
+  - /permalink/p6
 categories:
   - Politics
 

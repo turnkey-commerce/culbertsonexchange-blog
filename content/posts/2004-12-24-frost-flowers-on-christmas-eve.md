@@ -3,7 +3,8 @@ title: Frost Flowers on Christmas Eve
 author: James
 type: post
 date: 2004-12-25T03:53:51+00:00
-url: /?p=20
+aliases:
+  - /permalink/p20
 categories:
   - Science
 

@@ -3,7 +3,8 @@ title: Clipboard Printer App
 author: James
 type: post
 date: 2011-05-27T04:01:45+00:00
-url: /?p=182
+aliases:
+  - /permalink/p182
 categories:
   - General
   - Internet

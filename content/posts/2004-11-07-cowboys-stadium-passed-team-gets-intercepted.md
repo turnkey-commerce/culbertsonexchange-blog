@@ -3,7 +3,8 @@ title: Cowboys Stadium Passed – Team Gets Intercepted
 author: James
 type: post
 date: 2004-11-07T20:47:26+00:00
-url: /?p=10
+aliases:
+  - /permalink/p10
 categories:
   - Sports
 

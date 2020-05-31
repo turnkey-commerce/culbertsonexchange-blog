@@ -3,7 +3,8 @@ title: NASA WorldWind
 author: James
 type: post
 date: 2005-02-02T01:43:02+00:00
-url: /?p=22
+aliases:
+  - /permalink/p22
 categories:
   - Science
 

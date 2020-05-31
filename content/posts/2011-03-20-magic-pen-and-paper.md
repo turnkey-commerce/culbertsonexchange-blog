@@ -3,7 +3,8 @@ title: Magic Pen and Paper
 author: James
 type: post
 date: 2011-03-20T13:46:32+00:00
-url: /?p=110
+aliases:
+  - /permalink/p110
 categories:
   - General
   - Software Development

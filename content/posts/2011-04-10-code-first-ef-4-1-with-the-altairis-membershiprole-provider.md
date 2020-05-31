@@ -3,7 +3,8 @@ title: Code First EF 4.1 with the Altairis Membership/Role Provider
 author: James
 type: post
 date: 2011-04-10T20:48:14+00:00
-url: /?p=120
+aliases:
+  - /permalink/p120
 categories:
   - Internet
   - Software Development
@@ -155,10 +156,10 @@ _April 14, 2011 at 7:10 am_
 >The membership provider in this example (Altairis) will automatically identify the User table as that’s how it has been defined. It’s possible that a different provider will look for a different table and columns so please note that this one is specific to Altairis. The Membership provider itself is defined in the web.config (see download code).
 
 ****
-
+<!-- markdownlint-disable MD033 -->
 <span id="rwbrad"><span>{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}RWBrad  
 _April 24, 2011 at 9:51 pm_
-
+<!-- markdownlint-enable MD033 -->
 >How would you create some initial user in the DBInitializer routine?
 
 ****
@@ -182,10 +183,10 @@ if (status == MembershipCreateStatus.Success) {
 {{< / highlight >}}
 
 ****
-
+<!-- markdownlint-disable MD033 -->
 <span id="nagle"><span>{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}Adam Nagle  
 _April 26, 2011 at 8:29 am_
-
+<!-- markdownlint-enable MD033 -->
 >I dug into the Altairis TableMembershipProvider Source Code and found another way to Seed user data. I needed to do it this way because my initializer lives down in my data access layer.
 
 {{< highlight "C#" >}}

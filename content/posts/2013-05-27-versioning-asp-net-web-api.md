@@ -3,7 +3,8 @@ title: Versioning ASP.Net Web API
 author: James
 type: post
 date: 2013-05-28T03:10:11+00:00
-url: /?p=318
+aliases:
+  - /permalink/p318
 categories:
   - Software Development
 tags:

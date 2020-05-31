@@ -3,7 +3,8 @@ title: Tropical Storm Hermine Over Driftwood
 author: James
 type: post
 date: 2010-09-09T01:48:05+00:00
-url: /?p=96
+aliases:
+  - /permalink/p96
 categories:
   - General
 tags:

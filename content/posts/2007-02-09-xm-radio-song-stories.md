@@ -3,7 +3,8 @@ title: XM Radio – Song Stories
 author: James
 type: post
 date: 2007-02-10T05:00:43+00:00
-url: /?p=30
+aliases:
+  - /permalink/p30
 categories:
   - Entertainment
   - General

@@ -3,7 +3,8 @@ title: Mr. Toad Lives!
 author: James
 type: post
 date: 2007-03-05T01:54:40+00:00
-url: /?p=38
+aliases:
+  - /permalink/p38
 categories:
   - Entertainment
 

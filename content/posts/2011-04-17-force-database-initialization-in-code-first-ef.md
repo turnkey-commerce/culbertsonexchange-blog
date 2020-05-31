@@ -3,7 +3,8 @@ title: Force Database Initialization in Code First EF
 author: James
 type: post
 date: 2011-04-17T15:45:48+00:00
-url: /?p=148
+aliases:
+  - /permalink/p148
 categories:
   - Internet
   - Software Development
