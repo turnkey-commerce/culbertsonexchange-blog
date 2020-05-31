@@ -72,5 +72,37 @@ $("#searchSubmit").click(function (event) {
 });
 {{< / highlight >}}
 
+****
+
+3 thoughts on “JQuery UI Autocomplete and MVC3 Remote Validation Conflict”
+
+{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}raghu  
+_October 3, 2011 at 11:21 pm_
+
+>I am using the above structure to validate username,, but i am facing a problem for ,, The controller what i am using in Remote(“controllerName”,”FucntionName”) is not called at all.  
+I am also using the Following Jquery
+{{< highlight "Javascript" >}}
+jquery-1.4.4.min.js
+jquery.validate.min.js
+jquery.validate.unobtrusive.min.js
+{{< / highlight >}}
+>But i am facing the above said problem,  
+pls help me
+
+****
+
+{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+_October 4, 2011 at 9:03 am_
+
+>@Raghu,  
+Sometimes it is useful to debug using FireBug on FireFox so you can trace what is going on with the JavaScript/JQuery as there may be a problem there. Also, please refer to the post by Dean Hume as it has some guidance more specific to what you are trying to do: MVC3 And Remote Validation.
+
+****
+
+{{< figure src="http://0.gravatar.com/avatar/c63ad7163d59992f3841a70319f5c9a2?s=44&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}Guigo  
+_October 20, 2011 at 11:27 am_
+
+>Finally a solution that really works. God bless you!
+
  [1]: http://jqueryui.com/demos/autocomplete/
  [2]: http://msdn.microsoft.com/en-us/library/gg508808(v=vs.98).aspx

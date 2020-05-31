@@ -42,4 +42,4 @@ Then the form can be given an id so that JQuery will select the correct form:
 
 For the full code [refer to the previous article][1] (where this issue has been corrected).
 
- [1]: http://www.culbertsonexchange.com/wp/?p=190
+ [1]: /p190
