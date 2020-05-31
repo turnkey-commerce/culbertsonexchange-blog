@@ -142,28 +142,28 @@ I wrote an example ASP.Net MVC3 application and it is available for download at 
 
 14 thoughts on “Code First EF 4.1 with the Altairis Membership/Role Provider”
 
-raj  
+{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}raj  
 _April 14, 2011 at 12:56 am_
 
 >How to identify the User table from the Membership provider?
 
 ****
 
-James Culbertson  
+{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
 _April 14, 2011 at 7:10 am_
 
 >The membership provider in this example (Altairis) will automatically identify the User table as that’s how it has been defined. It’s possible that a different provider will look for a different table and columns so please note that this one is specific to Altairis. The Membership provider itself is defined in the web.config (see download code).
 
 ****
 
-RWBrad  
+<span id="rwbrad"><span>{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}RWBrad  
 _April 24, 2011 at 9:51 pm_
 
 >How would you create some initial user in the DBInitializer routine?
 
 ****
 
-James Culbertson  
+{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
 _April 24, 2011 at 10:02 pm_
 
 >@RWBrad: That’s a great question and it is definitely a chicken/egg thing as you’d like to create a user with an admin role to get started. I was working on a related issue on the follow-up post on how to force the DB re-creation before the membership provider is accessed as it can cause an error otherwise. It could be done by calling the membership provider directly in that method. I’ll try that and do a follow-up on it.  
@@ -183,80 +183,100 @@ if (status == MembershipCreateStatus.Success) {
 
 ****
 
-Adam Nagle
-April 26, 2011 at 8:29 am
-I dug into the Altairis TableMembershipProvider Source Code and found another way to Seed user data. I needed to do it this way because my initializer lives down in my data access layer.
+<span id="nagle"><span>{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}Adam Nagle  
+_April 26, 2011 at 8:29 am_
 
+>I dug into the Altairis TableMembershipProvider Source Code and found another way to Seed user data. I needed to do it this way because my initializer lives down in my data access layer.
+
+{{< highlight "C#" >}}
 using (var hmac = new System.Security.Cryptography.HMACSHA512())
 {
-passwordSalt = hmac.Key;
-passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
+    passwordSalt = hmac.Key;
+    passwordHash = hmac.ComputeHash(System.Text.Encoding.UTF8.GetBytes(password));
 
-var users = new List
-{
-new User{ UserName = “testuser”, Email = “testuser@gmail.com”,
-PasswordHash = passwordHash,
-PasswordSalt = passwordSalt,
-IsApproved = true,
-DateCreated = DateTime.Now,
-DateLastPasswordChange = DateTime.Now,
-Roles = context.Roles.Where(x=>x.RoleName == “User”).ToList()
-}
-};
-users.ForEach(x => context.Users.Add(x));
+    var users = new List
+    {
+        new User
+        { 
+            UserName = “testuser”, Email = “testuser@gmail.com”,
+            PasswordHash = passwordHash,
+            PasswordSalt = passwordSalt,
+            IsApproved = true,
+            DateCreated = DateTime.Now,
+            DateLastPasswordChange = DateTime.Now,
+            Roles = context.Roles.Where(x=>x.RoleName == “User”).ToList()
+        }
+    };
+    users.ForEach(x => context.Users.Add(x));
+{{< / highlight >}}
 
+****
 
-JamesPost author
-April 26, 2011 at 8:36 am
-@Adam,
+{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+_April 26, 2011 at 8:36 am_
 
+>@Adam,  
 Thanks for sharing that more direct way to create the user!
 
+****
 
-dc
-May 11, 2011 at 4:49 am
-Can we have add extra properties with Required attribute onto the User entity?
+{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}dc  
+_May 11, 2011 at 4:49 am_
 
+>Can we have add extra properties with Required attribute onto the User entity?
 
-JamesPost author
-May 12, 2011 at 8:45 pm
-@dc: Not on the User entity because it would cause the Membership provider to break on the create method. However, a workaround could be to add the properties as not required and then use a ViewModel for the controller/view to make the property required with an attribute in the ViewModel for the purpose of validation in the view. The ViewModel could then be mapped to the User Entity in the controller. There are tools such as Automapper that can help automate that mapping.
+****
 
+{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+_May 12, 2011 at 8:45 pm_
 
-Michiel
-August 3, 2011 at 8:23 am
-Great code. I made a NuGet package based on this code, check it out here:
+>@dc: Not on the User entity because it would cause the Membership provider to break on the create method. However, a workaround could be to add the properties as not required and then use a ViewModel for the controller/view to make the property required with an attribute in the ViewModel for the purpose of validation in the view. The ViewModel could then be mapped to the User Entity in the controller. There are tools such as Automapper that can help automate that mapping.
 
-http://www.nuget.org/List/Packages/quickstart.mvc3.unity.ef.altairiswebsecurity
+****
 
+{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}Michiel  
+_August 3, 2011 at 8:23 am_
 
-JamesPost author
-August 3, 2011 at 1:31 pm
-@Michiel, Thanks for packaging that up, looks very cool! Great to have nice packages like that to start up a new project.
+>Great code. I made a NuGet package based on this code, check it out here:
 
+[http://www.nuget.org/List/Packages/quickstart.mvc3.unity.ef.altairiswebsecurity](http://www.nuget.org/List/Packages/quickstart.mvc3.unity.ef.altairiswebsecurity)
 
-Stuart
-November 3, 2011 at 1:07 am
-Adding role(s) to user(s) when seeding the DB…. stuck on this one for a bit.
-Just what I was after:
-user.Roles = new List();
+****
 
+{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+_August 3, 2011 at 1:31 pm_
+
+>@Michiel, Thanks for packaging that up, looks very cool! Great to have nice packages like that to start up a new project.
+
+****
+
+{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}Stuart  
+_November 3, 2011 at 1:07 am_
+
+>Adding role(s) to user(s) when seeding the DB…. stuck on this one for a bit.  
+Just what I was after:  
+user.Roles = new List();  
 Thanks.
 
+****
 
-Tim
-December 31, 2011 at 3:13 pm
-finally i found your post.it does help me a lot ,thanks a lot ,but i have one more question?how to init the database with .mdf format instead of scf .i played around with this few hours,can’t figure out,please help me.
+{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}Tim  
+_December 31, 2011 at 3:13 pm_
 
+>finally i found your post. it does help me a lot, thanks a lot, but i have one more question? how to init the database with .mdf format instead of scf. i played around with this few hours, can’t figure out, please help me.
 
-Tim
-December 31, 2011 at 3:56 pm
-dudu,i figured out myself ,thank ya
+****
 
+{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}Tim  
+_December 31, 2011 at 3:56 pm_
+>dudu, i figured out myself, thank ya
 
-JamesPost author
-December 31, 2011 at 7:55 pm
-Glad you got it figured out OK. You can control the database it creates or connects to in the connection string.
+****
+
+{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+_December 31, 2011 at 7:55 pm_
+
+>Glad you got it figured out OK. You can control the database it creates or connects to in the connection string.
 
  [1]: /wp/wp-content/uploads/2011/04/unicorn07.gif
- [2]: /?p=148
+ [2]: /p148

@@ -49,4 +49,32 @@ The code in lines 8-10 forces the context to initialize the database and if ther
 
 The example ASP.Net MVC3 application has been updated with these changes and is available for download at Github: [Download Code][1]
 
+****
+
+3 thoughts on “Force Database Initialization in Code First EF”
+
+{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}Ciwan  
+_December 1, 2011 at 7:26 am_
+
+>Hello James  
+I have followed your steps from Previous related post and this one, but it isn’t working for me. I am getting the [following error](http://tinyurl.com/cwa34dm).  
+Can you please help me resolve the error ? :( I would greatly appreciate it.  
+Thank You.
+
+****
+
+{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+_December 1, 2011 at 8:28 am_
+
+>Hi Ciwan,  
+I responded to the post that you linked with some suggestions as it looks like a possible DB permissions problem.  
+-James
+
+****
+
+{{< figure src="/images/user.png" alt="Commenter" class="commenter">}}Dan  
+_November 29, 2012 at 11:23 pm_
+
+>Thanks James, this was a great help.
+
  [1]: https://github.com/turnkey-commerce/CodeFirstAltairis/
