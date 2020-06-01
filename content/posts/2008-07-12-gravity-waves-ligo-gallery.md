@@ -13,6 +13,6 @@ I had previously written on [&#8220;The Nature of Gravity&#8221;][1]. The Nation
 
 {{< figure src="/wp/wp-content/uploads/2008/07/ligo.jpg" alt="The Crab Nebula" >}}
 
- [1]: /p28
+ [1]: {{< relref "2007-01-29-the-nature-of-gravity.md" >}}
  [2]: http://en.wikipedia.org/wiki/Michelson_interferometer
  [3]: http://www.wired.com/science/discoveries/multimedia/2008/07/gallery_ligo

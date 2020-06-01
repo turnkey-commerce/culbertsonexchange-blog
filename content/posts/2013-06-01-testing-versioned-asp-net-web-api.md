@@ -15,7 +15,7 @@ tags:
   - Web API
 
 ---
-I recently wrote about [a framework for Versioning ASP.Net Web API](http://www.culbertsonexchange.com/wp/?p=318). Continuing on the theme of versioning API’s, I researched how to test the different versions of a Web API, both for unit tests and SpecFlow acceptance tests.
+I recently wrote about [a framework for Versioning ASP.Net Web API]({{< relref "2013-05-27-versioning-asp-net-web-api.md" >}}). Continuing on the theme of versioning API’s, I researched how to test the different versions of a Web API, both for unit tests and SpecFlow acceptance tests.
 
 ### Overview
 
@@ -23,12 +23,12 @@ As a quick review, the [**SDammann.WebApi.Versioning**][1] package was used for 
 
 ### SpecFlow Tests
 
-I [previously covered using SpecFlow for testing the Web API](http://www.culbertsonexchange.com/wp/?p=293). When new versions of a Web API are introduced the following items should be considered:
+I [previously covered using SpecFlow for testing the Web API]({{< relref "2013-05-12-using-specflow-to-test-the-asp-net-web-api.md" >}}). When new versions of a Web API are introduced the following items should be considered:
 
-  * Continue testing the previous versions that are still being supported.
-  * Ensure that the features of the new version are being tested.
+* Continue testing the previous versions that are still being supported.
+* Ensure that the features of the new version are being tested.
 
-The challenge is to extend the test coverage across multiple versions of the Web API without duplicating features or steps. Fortunately SpecFlow provides a syntax to run the same scenario multiple times via a feature called “Scenario Outline”. This feature also allows the scenario to pass variables for each run of the scenario. 
+The challenge is to extend the test coverage across multiple versions of the Web API without duplicating features or steps. Fortunately SpecFlow provides a syntax to run the same scenario multiple times via a feature called “Scenario Outline”. This feature also allows the scenario to pass variables for each run of the scenario.
 
 #### Running a Test for Multiple Versions
 
@@ -174,7 +174,6 @@ In this case the purpose is to ensure that the correct controller is constructed
 #### Running Unit Tests in NUnit
 
 When the NUnit tests that are decorated with the “[TestCase()]” attribute are run in the NUnit Test Runner they appear similar to the SpecFlow tests:
-
 
 ![Code Example](http://www.culbertsonexchange.com/wp/wp-content/uploads/2013/06/image1.png)
 

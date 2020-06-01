@@ -17,7 +17,7 @@ tags:
 
 ### Approach
 
-Since the Web API is intended to be utilized by a number of types of client applications that support the HTTP protocol (smart phones, tablets, desktop applications, as well as browsers), it is convenient to use a library that is well-suited to use the HTTP verbs used by the Web API. In this case I used the [HTTPClient](http://msdn.microsoft.com/en-us/library/system.net.http.httpclient.aspx) class for interacting with the Web API. 
+Since the Web API is intended to be utilized by a number of types of client applications that support the HTTP protocol (smart phones, tablets, desktop applications, as well as browsers), it is convenient to use a library that is well-suited to use the HTTP verbs used by the Web API. In this case I used the [HTTPClient](http://msdn.microsoft.com/en-us/library/system.net.http.httpclient.aspx) class for interacting with the Web API.
 
 For example in the case of posting a new project, and the client has been setup with the proper post parameters, then the client can post to the Web API as follows:
 
@@ -117,8 +117,6 @@ This step is coded in a way that the status code that is expected is passed in t
 
   This step gets the URL path for the new project by examining the “Location” header parameter that was returned by the response.&nbsp; This will give the path and project ID needed to get the created project:
 
-
-
 {{< highlight "C#" >}}
 [When(@"the client gets the project by header location")]
 public void WhenTheClientGetsTheProjectByHeaderLocation()
@@ -146,25 +144,20 @@ public void ThenTheSavedProjectMatchesTheInputs()
 }
 {{< / highlight >}}
 
-
-<h3>
-  Other Scenarios
-</h3>
+#### Other Scenarios
 
 Other scenarios were set up to complete the testing of the Project API to test for all of the verbs (“get”, “put”, “post”, and “delete”) as well as testing for aspects such as invalid authorization or testing that users may not access or modify other user’s projects. These scenarios are defined in the following file: [ProjectsApi.feature](https://github.com/turnkey-commerce/ResearchLinks/blob/master/ResearchLinks.SpecTests/ProjectsApi.feature).
 
- #### Other Testing Considerations
+#### Other Testing Considerations
 
-  It’s important that the tests are run with a clean environment so that they don’t depend on other tests.&nbsp; Therefore a “[BeforeScenario]” method is used to ensure that the projects are removed prior to each test, in the following file: [DatabaseHelpers.cs](https://github.com/turnkey-commerce/ResearchLinks/blob/master/ResearchLinks.SpecTests/Helpers/DatabaseHelpers.cs).
+It’s important that the tests are run with a clean environment so that they don’t depend on other tests.&nbsp; Therefore a “[BeforeScenario]” method is used to ensure that the projects are removed prior to each test, in the following file: [DatabaseHelpers.cs](https://github.com/turnkey-commerce/ResearchLinks/blob/master/ResearchLinks.SpecTests/Helpers/DatabaseHelpers.cs).
 
-  Also to ensure that the web server is available for the test run, the IISExpress module is started when the tests are run via the “[SetUp]” and “[TearDown]” attributes on methods that start and shutdown IISExpress. This setup and teardown is found in the following file: [Startup.cs](https://github.com/turnkey-commerce/ResearchLinks/blob/master/ResearchLinks.SpecTests/Startup.cs)</a>.
+Also to ensure that the web server is available for the test run, the IISExpress module is started when the tests are run via the “[SetUp]” and “[TearDown]” attributes on methods that start and shutdown IISExpress. This setup and teardown is found in the following file: [Startup.cs](https://github.com/turnkey-commerce/ResearchLinks/blob/master/ResearchLinks.SpecTests/Startup.cs).
 
+The SpecFlow code should be set up in a separate project within the solution, also separate from unit tests.&nbsp; This allows it to be omitted from some deployments. For example this is useful for AppHarbor deployments where these type of tests won’t run within the production environment.
 
-  The SpecFlow code should be set up in a separate project within the solution, also separate from unit tests.&nbsp; This allows it to be omitted from some deployments. For example this is useful for AppHarbor deployments where these type of tests won’t run within the production environment. 
+#### Full Source code
 
- #### Full Source code
+The full source code for this project can be found at the [ResearchLinks](https://github.com/turnkey-commerce/ResearchLinks) solution on GitHub and the code related to SpecFlow is contained in the [ResearchLinks.SpecTests](https://github.com/turnkey-commerce/ResearchLinks/tree/master/ResearchLinks.SpecTests) sub-project.
 
-  The full source code for this project can be found at the [ResearchLinks](https://github.com/turnkey-commerce/ResearchLinks) solution on GitHub and the code related to SpecFlow is contained in the [ResearchLinks.SpecTests](https://github.com/turnkey-commerce/ResearchLinks/tree/master/ResearchLinks.SpecTests) sub-project.
-
-
- [1]: http://www.culbertsonexchange.com/wp/?p=249
+ [1]: {{< relref "2012-01-19-using-simplebrowser-with-specflow-for-bdd-with-asp-net-mvc.md" >}}

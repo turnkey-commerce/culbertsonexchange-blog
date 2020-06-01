@@ -9,9 +9,9 @@ categories:
   - Uncategorized
 
 ---
-In a [previous post](/p120) I showed how Entity Framework Code First ORM could be integrated with the [Altairis Web Security](http://altairiswebsecurity.codeplex.com/) simple membership provider to create a simple way to add a membership provider with an application using the EF 4.1 framework. One of the issues is that when the database is regenerated during development the users would have to be manually re-registered.&#160; This is a hassle if you want to create an initial admin account or user account for testing.
+In a [previous post]({{< relref "2011-04-10-code-first-ef-4-1-with-the-altairis-membershiprole-provider.md" >}}) I showed how Entity Framework Code First ORM could be integrated with the [Altairis Web Security](http://altairiswebsecurity.codeplex.com/) simple membership provider to create a simple way to add a membership provider with an application using the EF 4.1 framework. One of the issues is that when the database is regenerated during development the users would have to be manually re-registered.&#160; This is a hassle if you want to create an initial admin account or user account for testing.
 
-[RWBrad asked in the comments](/p120#rwbrad) if there was a way to seed an initial user in the DBInitializer routine. I did some experimenting with the Seed method and found that it can be done by calling the membership provider directly to create a new user and then adding the appropriate roles via the EF context as shown below:
+[RWBrad asked in the comments]({{< relref "2011-04-10-code-first-ef-4-1-with-the-altairis-membershiprole-provider.md#rwbrad" >}}) if there was a way to seed an initial user in the DBInitializer routine. I did some experimenting with the Seed method and found that it can be done by calling the membership provider directly to create a new user and then adding the appropriate roles via the EF context as shown below:
 
 {{< highlight "C#" >}}
 // Create a user.
@@ -26,7 +26,7 @@ if (status == MembershipCreateStatus.Success) {
 }
 {{< / highlight >}}
 
-Then [Adam Nagle then showed that the user can also be created more directly](/p120#nagle) by the context when it’s preferred to keep the data access independent of the provider assembly.
+Then [Adam Nagle then showed that the user can also be created more directly]({{< relref "2011-04-10-code-first-ef-4-1-with-the-altairis-membershiprole-provider.md#nagle" >}}) by the context when it’s preferred to keep the data access independent of the provider assembly.
 
 These ideas make this concept more useful by allowing the seeding of initial users without having to go to SQL to add the admin role.
 

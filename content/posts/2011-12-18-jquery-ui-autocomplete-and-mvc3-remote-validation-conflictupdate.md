@@ -43,4 +43,4 @@ Then the form can be given an id so that JQuery will select the correct form:
 
 For the full code [refer to the previous article][1] (where this issue has been corrected).
 
- [1]: /p190
+ [1]: {{< relref "2011-09-05-jquery-ui-autocomplete-and-mvc3-remote-validation-conflict.md" >}}

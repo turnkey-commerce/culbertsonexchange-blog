@@ -20,12 +20,12 @@ Evidently when Mr. Toad was being closed at Orlando, Disney received quite a few
 
 More on Mr. Toad:
 
-  * [Mr. Toad on Wikipedia][3]
-  * [Virtual Toad][4]
-  * [You Tube Video of the ride at WDW][5]
-  * [Save Mr. Toad&#8217;s Wild Ride][6]
+* [Mr. Toad on Wikipedia][3]
+* [Virtual Toad][4]
+* [You Tube Video of the ride at WDW][5]
+* [Save Mr. Toad&#8217;s Wild Ride][6]
 
- [1]: /p21
+ [1]: {{< relref "2005-01-13-disneyland-turns-50.md" >}}
  [3]: http://en.wikipedia.org/wiki/Mr._Toad%27s_Wild_Ride
  [4]: http://virtual-toad.com/index.html
  [5]: http://www.youtube.com/watch?v=8CtBFmVN02I&mode=related&search=
