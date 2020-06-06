@@ -1,0 +1,24 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build-lunrjs-index.js",
+  "dependencies": {
+    "lunr": "^2.3.8",
+    "parser-front-matter": "^1.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turnkey-commerce/culbertsonexchange-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turnkey-commerce/culbertsonexchange-blog/issues"
+  },
+  "homepage": "https://github.com/turnkey-commerce/culbertsonexchange-blog#readme"
+}

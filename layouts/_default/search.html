@@ -6,21 +6,17 @@
 
 {{ printf "<!-- This is a custom built search page built on Lunrjs. First, an index is created with the build-lunrjs-index.sh script by running generate.sh in the Git directory. Then, this page takes the index and searches for the proper results using Lunrjs. Results are then displayed in the same form as a general list page, matching the theme of the website. -->" | safeHTML }}
 
-<p>Send any search function feedback to feedback@thetaliaferrotimes.org.</p>
-
 <h2>Search</h2>
 
 <div class="search-input-wrap">
-
   <form id="search-form" method="get" action="">
-	  <input id="search" name="q" type="text" />
-	  <br>
+	  <p><input id="search" name="q" type="search" /></p>
 	  <button id="search-button" type="submit" class="button">Search</button>
-    <a id="search-clear" href="/search/">Clear</a>
   </form>
-
 </div>
-<br>
+<div class="search-clear">
+  <p><a class="search-clear" href="/search/">Clear Search</a></p>
+</div>
 <div id="app-search" class="row listrecent"></div>
 
 <script src="https://unpkg.com/lunr/lunr.js"></script>
@@ -72,32 +68,21 @@ fetch('/gen/search-index.json').then(function (res) {
 
   if (matchPosts.length > 0) {
     $target.innerHTML = matchPosts.map(p => {
-      // return `<div>
-      //  <h3><a href="${p.link}">${p.title}</a></h3>
-      //  <p>by ${p.author}</p>
-      //  <p>${p.content} ...</p>
-      //</div>`;
-
-      // THIS HTML IS FROM POSTBOX.HTML PARTIAL: UPDATE IT FROM THERE (BUT WITH REPLACEMENTS)
 	    return `<br><div class="col-lg-4 col-md-6 mb-30px card-group">
-          <div class="card h-100">
+          <div class="list__item post">
               <div class="maxthumb">
                   <a href="${p.link}">
-                        <img class="img-fluid" src="${p.image}" alt="An thumbnail image.">
+                        <img class="img-fluid" src="${p.image}" onerror="this.style.display='none'" alt="Thumbnail image">
                   </a>
               </div>
               <div class="card-body">
                   <h2 class="card-title"><a class="text-dark" href="${p.link}">${p.title}</a></h2>
-                  <h4 class="card-text">${p.content}</h4>
+                  <p class="card-text">${p.content} <a class="list__footer-readmore btn" href="${p.link}">Read more…</a> </p>
               </div>
               <div class="card-footer bg-white">
                   <div class="wrapfooter">
-
-                      <span class="author-meta">
-                      <span class="post-name"><a href="/author/${p.authorurlized}">${p.author}</a></span><br/>
                       <span class="post-date">${p.date}</span>
                       </span>
-                      <span class="post-read-more"><a href="${p.link}" title="Read Story"><svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25"><path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path></svg></a></span>
                       <div class="clearfix"></div>
                   </div>
               </div>

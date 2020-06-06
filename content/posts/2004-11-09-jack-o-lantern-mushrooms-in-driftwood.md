@@ -7,6 +7,7 @@ aliases:
   - /permalink/p11
 categories:
   - Science
+image: /images/jackolantern_mushrooms.jpg
 
 ---
 ![Jack O' Lantern Mushrooms][1]

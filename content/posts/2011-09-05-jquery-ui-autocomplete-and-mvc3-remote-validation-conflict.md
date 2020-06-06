@@ -15,11 +15,11 @@ tags:
 ---
 On a recent project I had a great deal of trouble to get [JQuery UI Autocomplete][1] and [ASP.Net MVC3 Remote Validation][2] to play nicely with each other. The goal was to have a type-in for selecting a city for a search in which the pull-down would auto-complete based on the available cities in the database:
 
-![Autocomplete in action](http://www.culbertsonexchange.com/wp/wp-content/uploads/2011/09/selection_thumb.png)
+![Autocomplete in action](/wp/wp-content/uploads/2011/09/selection_thumb.png)
 
 Once a city is selected from the autocomplete it should do a validation as to whether the city is populated with actual data in the database (in case the user types in an invalid city:
 
-![Validation for missing city](http://www.culbertsonexchange.com/wp/wp-content/uploads/2011/09/selection2_thumb.png)
+![Validation for missing city](/wp/wp-content/uploads/2011/09/selection2_thumb.png)
 
 This is accomplished using the MVC 3 remote validation which makes it easy to do by adding an annotation to the ViewModel to indicate that the attribute will be remotely validated:
 

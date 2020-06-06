@@ -89,9 +89,7 @@ public void ThenTheSavedProjectMatchesTheInputs(int version)
 }
 {{< / highlight >}}
 
-
 #### Running a Test for a Specific Version
-
 
 Some tests might be applicable for a specific version. For example to test that the lack of “IsUrgent” input should return an error only for V2. Therefore the Scenario Outline can be set up to only run V2:
 
@@ -112,11 +110,11 @@ Scenarios:
 
 This scenario will only run once for V2. It is still useful to put it in the scenario outline so that when V3 is created it will be easy to extend the test to run for that version by adding a V3 row to the table at the bottom.
 
- #### Running the Scenarios in Nunit
+#### Running the Scenarios in Nunit
 
 When the versions are tested in this fashion in NUnit, they will be shown as nested under each Scenario Outline:
 
-![code example](http://www.culbertsonexchange.com/wp/wp-content/uploads/2013/06/image.png)
+![code example](/wp/wp-content/uploads/2013/06/image.png)
 
 The value of the variable that was passed for each run is shown and is helpful for identifying the test that was run.
 
@@ -175,7 +173,7 @@ In this case the purpose is to ensure that the correct controller is constructed
 
 When the NUnit tests that are decorated with the “[TestCase()]” attribute are run in the NUnit Test Runner they appear similar to the SpecFlow tests:
 
-![Code Example](http://www.culbertsonexchange.com/wp/wp-content/uploads/2013/06/image1.png)
+![Code Example](/wp/wp-content/uploads/2013/06/image1.png)
 
 As with the SpecFlow tests the version variable passed to the methods within each test case help identify when there are problems with an individual test case.
 

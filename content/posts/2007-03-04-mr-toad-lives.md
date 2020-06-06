@@ -7,6 +7,7 @@ aliases:
   - /permalink/p38
 categories:
   - Entertainment
+image: /wp/wp-content/uploads/2007/03/mr_toad_car.gif
 
 ---
 {{< figure src="/wp/wp-content/uploads/2007/03/mr_toad_car.gif" alt="Mr. Toad's Car" >}}
