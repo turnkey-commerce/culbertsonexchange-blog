@@ -9,7 +9,7 @@ categories:
   - Science
 
 ---
-{{< figure src="/wp/wp-content/uploads/2007/01/mice_galaxies.jpg" alt="The Mice - Intersecting Galaxies" title="The Mice - Intersecting Galaxies" >}}
+{{< figure src="/uploads/2007/01/mice_galaxies.jpg" alt="The Mice - Intersecting Galaxies" title="The Mice - Intersecting Galaxies" >}}
 
 Gravity has been one of the bigger mysteries to man. Isaac Newton&#8217;s attempts to understand it spawned a new branch of mathematics and a better understanding of mechanics. Einstein explored it in his unified field theory and warned others to stay away from such a tough problem.
 

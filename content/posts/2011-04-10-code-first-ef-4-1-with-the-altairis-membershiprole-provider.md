@@ -279,5 +279,5 @@ _December 31, 2011 at 7:55 pm_
 
 >Glad you got it figured out OK. You can control the database it creates or connects to in the connection string.
 
- [1]: /wp/wp-content/uploads/2011/04/unicorn07.gif
+ [1]: /uploads/2011/04/unicorn07.gif
  [2]: {{< relref "2011-04-17-force-database-initialization-in-code-first-ef.md" >}}

@@ -23,7 +23,7 @@ He was great in his emphasis on design and taste. His lessons on minimalism in d
 
 Thanks Steve, you were insanely great.
 
- [1]: /wp/wp-content/uploads/2011/10/jobs_billboard_different.jpg
+ [1]: /uploads/2011/10/jobs_billboard_different.jpg
  [2]: http://en.wikipedia.org/wiki/Apple_II_Plus
  [3]: http://en.wikipedia.org/wiki/Swashbuckler_(video_game)
  [4]: http://en.wikipedia.org/wiki/Applesoft_BASIC

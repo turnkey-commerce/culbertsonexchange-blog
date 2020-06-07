@@ -12,7 +12,7 @@ tags:
   - Photos
 
 ---
-{{< figure src="/wp/wp-content/uploads/2008/06/earth_from_mars.png" alt="Earth Viewed from Mars Orbiter" >}}
+{{< figure src="/uploads/2008/06/earth_from_mars.png" alt="Earth Viewed from Mars Orbiter" >}}
 
 The Boston Globe online runs an excellent photo blog called &#8220;The Big Picture&#8221;. It features amazing photographs of various subjects. This particular photo essay features a series of photos about Mars and its atmosphere: [Click Here to See Martian Skies][2]
 

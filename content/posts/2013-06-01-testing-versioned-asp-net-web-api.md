@@ -114,7 +114,7 @@ This scenario will only run once for V2. It is still useful to put it in the sce
 
 When the versions are tested in this fashion in NUnit, they will be shown as nested under each Scenario Outline:
 
-![code example](/wp/wp-content/uploads/2013/06/image.png)
+![code example](/uploads/2013/06/image.png)
 
 The value of the variable that was passed for each run is shown and is helpful for identifying the test that was run.
 
@@ -173,7 +173,7 @@ In this case the purpose is to ensure that the correct controller is constructed
 
 When the NUnit tests that are decorated with the “[TestCase()]” attribute are run in the NUnit Test Runner they appear similar to the SpecFlow tests:
 
-![Code Example](/wp/wp-content/uploads/2013/06/image1.png)
+![Code Example](/uploads/2013/06/image1.png)
 
 As with the SpecFlow tests the version variable passed to the methods within each test case help identify when there are problems with an individual test case.
 

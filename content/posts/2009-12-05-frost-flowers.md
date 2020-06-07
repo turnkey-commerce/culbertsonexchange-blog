@@ -17,15 +17,15 @@ The last time we saw frost flowers around here was in December 2004: [Christmas 
 
 Here are some pictures:
 
-{{< figure src="/wp/wp-content/uploads/2009/12/Frost_Flowers_020_resize2.jpg" alt="Frost Flowers in our back yard" >}}
+{{< figure src="/uploads/2009/12/Frost_Flowers_020_resize2.jpg" alt="Frost Flowers in our back yard" >}}
 
-{{< figure src="/wp/wp-content/uploads/2009/12/Frost_Flowers_022_resize1.jpg" alt="Closeup 1" >}}
+{{< figure src="/uploads/2009/12/Frost_Flowers_022_resize1.jpg" alt="Closeup 1" >}}
 
-{{< figure src="/wp/wp-content/uploads/2009/12/Frost_Flowers_026_resize1.jpg" alt="Closeup 2" >}}
+{{< figure src="/uploads/2009/12/Frost_Flowers_026_resize1.jpg" alt="Closeup 2" >}}
 
-{{< figure src="/wp/wp-content/uploads/2009/12/Frost_Flowers_018_resized1.jpg" alt="Closeup 3" >}}
+{{< figure src="/uploads/2009/12/Frost_Flowers_018_resized1.jpg" alt="Closeup 3" >}}
 
-{{< figure src="/wp/wp-content/uploads/2009/12/Frost_Flowers_014_resize1.jpg" alt="Closeup 4" >}}
+{{< figure src="/uploads/2009/12/Frost_Flowers_014_resize1.jpg" alt="Closeup 4" >}}
 
 ****
 

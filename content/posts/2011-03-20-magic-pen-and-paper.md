@@ -12,7 +12,7 @@ categories:
 ---
 I bought a magic gadget from Best Buy called the [LiveScribe](http://www.livescribe.com/en-us/) smart pen and paper after watching a colleague using it for making notes during a meeting.
 
-![Magic Pen](/wp/wp-content/uploads/2011/03/magic_pen2.jpg)
+![Magic Pen](/uploads/2011/03/magic_pen2.jpg)
 
 ### Technology
 

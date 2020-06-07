@@ -72,7 +72,7 @@ The **{version}** integer variable after the “v” will be utilized by the pac
 
 One of the downsides of this approach is that it could cause a lot of code duplication if the entire controllers are copied to a new namespace each time a version is added. One approach to reduce besides keeping the controllers “skinny” is to add a base class for each controller and implement overrides for the version where needed. For example the Controllers folder would look something like this:
 
-![Code example](http://www.culbertsonexchange.com/wp/wp-content/uploads/2013/05/image.png)
+![Code example](http://www.culbertsonexchange.com/uploads/2013/05/image.png)
 
 The base controllers would contain the initial implementation for version 1 with virtual methods:
 
