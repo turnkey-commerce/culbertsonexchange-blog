@@ -2,6 +2,7 @@
 title: Code First EF 4.1 with the Altairis Membership/Role Provider
 author: James
 type: post
+slug: code-first-ef-4.1-with-the-altairis-membership-role-provider
 date: 2011-04-10T20:48:14+00:00
 aliases:
   - /permalink/p120

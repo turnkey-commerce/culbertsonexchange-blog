@@ -2,6 +2,7 @@
 title: User Initialization in Code First/Altairis
 author: James
 type: post
+slug: user-initialization-in-code-first-altairis
 date: 2011-04-27T00:46:45+00:00
 aliases:
   - /permalink/p166
