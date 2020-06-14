@@ -25,7 +25,7 @@ I built this small app for this purpose a couple of years ago and thought I’d 
 
 To install the app download the installer MSI file:
 
-[ClipboardPrinterSetup.msi](http://www.culbertsonexchange.com/downloads/ClipboardPrinterSetup.msi)
+[ClipboardPrinterSetup.msi](/downloads/ClipboardPrinterSetup.msi)
 
 The source code is also available here:
 
