@@ -9,6 +9,8 @@ tags:
   - blogging
   - Hugo
   - Wordpress
+  - lunr.js
+  - lunr
 ---
 
 I recently decided to migrate this blog from Wordpress to a site using the [Hugo static site generator](https://gohugo.io/). The main goal was to simplify the hosting and learn more about the technology of static site generation. I chose Hugo mainly because it is fast and simple to use and install.
@@ -63,7 +65,7 @@ One other related detail involved moving any of the image files and old posts of
 
 #### 4. Enabling Search
 
-This aspect was more challenging than the permalinks as there is no automated way to do that with static file generators. I ended up using an approach where an index is prebuilt into a JSON datafile and then that index is searched using client-side Javascript. For this I used the [lunr.js](https://lunrjs.com/) framework. However, many of the examples I found didn't work well and will write a future post giving more details on how I got this to work.
+This aspect was more challenging than the permalinks as there is no automated way to do that with static file generators. I ended up using an approach where an index is prebuilt into a JSON datafile and then that index is searched using client-side Javascript. For this I used the [lunr.js](https://lunrjs.com/) framework. However, many of the examples I found didn't work well and [wrote another post giving more details]({{< relref "2020-06-21-search-integration-with-hugo.md" >}}) on how I got this to work.
 
 #### 5. Hosting
 
