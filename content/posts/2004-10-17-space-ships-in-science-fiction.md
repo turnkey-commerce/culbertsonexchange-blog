@@ -19,7 +19,7 @@ For a really long flight it would be advantageous to have even bulkier and less-
 
 3 thoughts on “Space Ships in Science Fiction”
 
-{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James  
+{{< figure src="https://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James  
 _November 6, 2004 at 8:01 am_
 
 >There seems to be some evidence that the concept of flying saucers was around at the time of WWII and some experimental work went into them. Evidently there were a couple of Germans experimenting with the idea, [Flying Saucers and the Third Reich](http://www.unmuseum.org/germufo.htm), as well as some experiments in the US, [US Flying Saucers](http://www.unmuseum.org/realsauc.htm). One of the main things that is attractive about the design is the “stealth” technology. Now that “fly by wire” is possible, a jet-powered flying saucer could probably be made.
@@ -29,7 +29,7 @@ _November 8, 2004 at 3:31 pm_
 
 >Another ridiculous aspect of the UFO phenom is that of lights on alien ships. Aliens traveling across the galaxy would not need lights on the exterior of their ships. Furthermore, if they were indeed capable of traveling intergalactic distances, they would probably be able to practice stealth technology to the degree that they could be standing/floating/sitting/???? right next to you, and you wouldn’t even know it. So this idea that they can travel this mind-boggling distance and then have to turn on their lights while loping around on the dark side of the Earth is pretty silly.
 ****
-{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James  
+{{< figure src="https://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James  
 _November 8, 2004 at 3:57 pm_
 
 >That is funny, evidently they only turn on all these lights and make funny noises around farm houses or other rural areas (after escaping detection by SETI and NORAD). Check out “The Invaders” from the Twilight Zone for an interesting example of that with a twist at the end.

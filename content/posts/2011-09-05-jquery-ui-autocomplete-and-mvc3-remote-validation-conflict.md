@@ -92,7 +92,7 @@ pls help me
 
 ****
 
-{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+{{< figure src="https://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
 _October 4, 2011 at 9:03 am_
 
 >@Raghu,  
@@ -100,7 +100,7 @@ Sometimes it is useful to debug using FireBug on FireFox so you can trace what i
 
 ****
 
-{{< figure src="http://0.gravatar.com/avatar/c63ad7163d59992f3841a70319f5c9a2?s=44&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}Guigo  
+{{< figure src="https://0.gravatar.com/avatar/c63ad7163d59992f3841a70319f5c9a2?s=44&d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}Guigo  
 _October 20, 2011 at 11:27 am_
 
 >Finally a solution that really works. God bless you!

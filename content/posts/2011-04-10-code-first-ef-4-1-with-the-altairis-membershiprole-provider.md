@@ -16,7 +16,7 @@ tags:
 ---
 ### Problem with Current Membership/Role Provider
 
-I’ve always thought the default membership/role provider for ASP.Net is a bit heavy in that it is targeted by default to a different database than the main application database and takes several additional steps to set up and deploy. I found the [Altairis Web Security Toolkit](http://altairiswebsecurity.codeplex.com/) on CodePlex and it has a nice, simple schema that is easy to integrate that into your application database. It is also available from Nuget as [Altairis.Web.Security](http://www.nuget.org/List/Packages/Altairis.Web.Security).
+I’ve always thought the default membership/role provider for ASP.Net is a bit heavy in that it is targeted by default to a different database than the main application database and takes several additional steps to set up and deploy. I found the [Altairis Web Security Toolkit](https://archive.codeplex.com/?p=altairiswebsecurity) on CodePlex and it has a nice, simple schema that is easy to integrate that into your application database. It is also available from Nuget as [Altairis.Web.Security](http://www.nuget.org/List/Packages/Altairis.Web.Security).
 
 ### Working with the EF Magic Unicorn Edition
 
@@ -151,7 +151,7 @@ _April 14, 2011 at 12:56 am_
 
 ****
 
-{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+{{< figure src="https://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
 _April 14, 2011 at 7:10 am_
 
 >The membership provider in this example (Altairis) will automatically identify the User table as that’s how it has been defined. It’s possible that a different provider will look for a different table and columns so please note that this one is specific to Altairis. The Membership provider itself is defined in the web.config (see download code).
@@ -165,7 +165,7 @@ _April 24, 2011 at 9:51 pm_
 
 ****
 
-{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+{{< figure src="https://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
 _April 24, 2011 at 10:02 pm_
 
 >@RWBrad: That’s a great question and it is definitely a chicken/egg thing as you’d like to create a user with an admin role to get started. I was working on a related issue on the follow-up post on how to force the DB re-creation before the membership provider is accessed as it can cause an error otherwise. It could be done by calling the membership provider directly in that method. I’ll try that and do a follow-up on it.  
@@ -214,7 +214,7 @@ using (var hmac = new System.Security.Cryptography.HMACSHA512())
 
 ****
 
-{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+{{< figure src="https://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
 _April 26, 2011 at 8:36 am_
 
 >@Adam,  
@@ -229,7 +229,7 @@ _May 11, 2011 at 4:49 am_
 
 ****
 
-{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+{{< figure src="https://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
 _May 12, 2011 at 8:45 pm_
 
 >@dc: Not on the User entity because it would cause the Membership provider to break on the create method. However, a workaround could be to add the properties as not required and then use a ViewModel for the controller/view to make the property required with an attribute in the ViewModel for the purpose of validation in the view. The ViewModel could then be mapped to the User Entity in the controller. There are tools such as Automapper that can help automate that mapping.
@@ -245,7 +245,7 @@ _August 3, 2011 at 8:23 am_
 
 ****
 
-{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+{{< figure src="https://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
 _August 3, 2011 at 1:31 pm_
 
 >@Michiel, Thanks for packaging that up, looks very cool! Great to have nice packages like that to start up a new project.
@@ -275,7 +275,7 @@ _December 31, 2011 at 3:56 pm_
 
 ****
 
-{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+{{< figure src="https://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
 _December 31, 2011 at 7:55 pm_
 
 >Glad you got it figured out OK. You can control the database it creates or connects to in the connection string.

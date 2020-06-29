@@ -106,21 +106,21 @@ Very nice write up.
 
 ****
 
-{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+{{< figure src="https://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
 _January 20, 2012 at 8:46 am_
 
 >Thanks Ryan. Good point on checking the views created for the dynamic pages. Then for the next step you could skip to the results page by using the “Navigate()” method to go to the page by inserting the appropriate url and query params for the routing to consume.
 
 ****
 
-{{< figure src="http://1.gravatar.com/avatar/bbb93ca63414691dd427a80c4f50d9e2?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}Karan  
+{{< figure src="https://1.gravatar.com/avatar/bbb93ca63414691dd427a80c4f50d9e2?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}Karan  
 _July 6, 2012 at 3:10 am_
 
 >Thanks for the article. I tried SimpleBrowser, and its significantly faster than running Watin tests. Unfortunately, SimpleBrowser does not support Ajax calls. Is Watin the best option for running javascript code? I read around that Selenium has a headless browser that supports javascript – maybe worth having a look at?
 
 ****
 
-{{< figure src="http://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
+{{< figure src="https://1.gravatar.com/avatar/7d7f3a3ae79c647242de191255ce6a36?s=44&d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D44&r=G" alt="Commenter" class="commenter">}}James Culbertson  
 _July 6, 2012 at 7:52 am_
 
 >@Karan,  
