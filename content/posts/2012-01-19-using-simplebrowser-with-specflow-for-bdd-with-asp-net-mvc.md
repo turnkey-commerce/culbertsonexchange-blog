@@ -11,6 +11,7 @@ tags:
   - asp.net
   - simplebrowser
   - specflow
+comments: false
 
 ---
 The [SpecFlow][1] project provides a useful way to integrate BDD (Behavior Driven Development) testing into .NET projects using the Gherkin language. The main idea is that the project specs or user stories are written in user language and then are linked to actual tests that are automatically executed as the project is developed. There are several possible ways to implement this with ASP.NET MVC to automate the testing with the browser.

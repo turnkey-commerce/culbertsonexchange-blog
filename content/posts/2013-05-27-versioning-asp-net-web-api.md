@@ -11,6 +11,7 @@ tags:
   - asp.net
   - versioning
   - Web API
+comments: false
 
 ---
 One of the important things to consider when building an API is a strategy for versioning the API to manage changes. There are several reasons this is important:

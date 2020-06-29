@@ -11,6 +11,7 @@ tags:
   - JQuery
   - MVC
   - Validation
+comments: false
 
 ---
 On a recent project I had a great deal of trouble to get [JQuery UI Autocomplete][1] and [ASP.Net MVC3 Remote Validation][2] to play nicely with each other. The goal was to have a type-in for selecting a city for a search in which the pull-down would auto-complete based on the available cities in the database:

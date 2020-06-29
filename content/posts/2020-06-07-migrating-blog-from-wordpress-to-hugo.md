@@ -11,6 +11,7 @@ tags:
   - Wordpress
   - lunr.js
   - lunr
+comments: true
 ---
 
 I recently decided to migrate this blog from Wordpress to a site using the [Hugo static site generator](https://gohugo.io/). The main goal was to simplify the hosting and learn more about the technology of static site generation. I chose Hugo mainly because it is fast and simple to use and install.

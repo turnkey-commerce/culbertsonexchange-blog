@@ -7,6 +7,7 @@ aliases:
   - /permalink/p17
 categories:
   - Science
+comments: false
 
 ---
 {{< figure src="/images/buzzardstower.jpg" alt="Buzzards Tower" class="right">}}This tower is about four miles from our house and is the favored roosting place for the neigborhood buzzards. They fly over to the tower just before dark and settle in for the night. There were at least 100 of them on the tower when this picture was taken and probably more by dark.

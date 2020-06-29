@@ -11,6 +11,7 @@ tags:
   - asp.net
   - specflow
   - Web API
+comments: false
 
 ---
 [I previously wrote about the use of SpecFlow][1] in an ASP.Net MVC application with the SimpleBrowser library. I’ve recently been building [a project](https://github.com/turnkey-commerce/ResearchLinks) to utilize the ASP.Net Web API to study the best practices of building a “RESTful” API for an application to save research notes and links about multiple projects.

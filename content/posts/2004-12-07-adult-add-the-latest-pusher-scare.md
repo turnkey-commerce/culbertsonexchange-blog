@@ -7,6 +7,7 @@ aliases:
   - /permalink/p15
 categories:
   - Science
+comments: false
 
 ---
 {{< figure src="/images/the_scream.jpg" alt="Scream" class="right">}}There have been a rash of ads about &#8220;Adult Attention Deficit Disorder&#8221;, which turns out to be yet another reason for Americans to take some drugs. The TV ads show people in boring business meetings, having a hard time paying attention. That&#8217;s a real big surprise. It&#8217;s just another opportunity for the drug companies to push some drugs on us.

@@ -8,6 +8,7 @@ aliases:
 categories:
   - Science
 image: /images/jackolantern_mushrooms.jpg
+comments: false
 
 ---
 ![Jack O' Lantern Mushrooms][1]

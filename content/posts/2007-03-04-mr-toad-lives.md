@@ -8,6 +8,7 @@ aliases:
 categories:
   - Entertainment
 image: /uploads/2007/03/mr_toad_car.gif
+comments: false
 
 ---
 {{< figure src="/uploads/2007/03/mr_toad_car.gif" alt="Mr. Toad's Car" >}}

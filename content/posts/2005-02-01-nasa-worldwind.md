@@ -7,6 +7,7 @@ aliases:
   - /permalink/p22
 categories:
   - Science
+comments: false
 
 ---
 {{< figure src="/images/luecke.jpg" alt="Luecke Carving" class="right" >}}NASA is providing a free and interesting computer program called the WorldWind. It allows easy viewing and zooming in on satellite images. It also has features to show effects of climate and humans on the earth as well as allowing some 3D rendering. The effect is kind of like flying around the earth and zooming in on things. Some of the fun is seeing how your town looks from space.

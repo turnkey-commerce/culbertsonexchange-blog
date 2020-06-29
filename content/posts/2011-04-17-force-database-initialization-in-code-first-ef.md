@@ -11,6 +11,7 @@ categories:
 tags:
   - Entity Framework
   - MVC
+comments: false
 
 ---
 Continuing on the [previous post]({{< relref "2011-04-10-code-first-ef-4-1-with-the-altairis-membershiprole-provider.md" >}}) about using the drop-in Altairis.Web.Security membership provider, I ran into an issue where the database may not be recreated in a timely fashion on a change to the model classes. For example if you add the following property to the User class:

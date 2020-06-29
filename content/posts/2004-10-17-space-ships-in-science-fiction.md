@@ -8,6 +8,7 @@ aliases:
 categories:
   - Science
 image: /images/saucer.jpg
+comments: false
 ---
 {{< figure src="/images/saucer.jpg" alt="Flying Saucer" class="left">}}We&#8217;ve been watching some of those old _Twilight Zone_ classics and have been amused by some of the ways in which space travel was envisioned back in the early 60&#8242;s. There seems to have been an assumption that we would be traveling around in flying saucers. This was likely brought on by the fascination with flying saucers around that time and in the 1950&#8242;s classics (e.g. &#8220;[The Day the Earth Stood Still][1]&#8220;).
 

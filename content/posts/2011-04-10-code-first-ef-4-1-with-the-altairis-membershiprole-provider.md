@@ -12,6 +12,7 @@ categories:
 tags:
   - Entity Framework
   - MVC
+comments: false
 
 ---
 ### Problem with Current Membership/Role Provider

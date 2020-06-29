@@ -9,6 +9,7 @@ categories:
   - General
 tags:
   - driftwood flood
+comments: false
 
 ---
 {{< figure src="/uploads/2010/09/hermine.jpg" alt="Tropical Storm Hermine" >}}

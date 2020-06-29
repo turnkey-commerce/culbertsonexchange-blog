@@ -10,6 +10,7 @@ categories:
   - Internet
   - Software Development
 image: /uploads/2011/05/clipboard_printer_icon.png
+comments: false
 
 ---
 Sometimes you might want to print a small section from an email that has 30-embedded replies or just a snippet of code from that big class file. The **Clipboard Printer** Windows app makes it easy to do by copying what you want to print into the clipboard (CTL-C or right-mouse “Copy”) and then print it to your printer.

@@ -7,6 +7,7 @@ aliases:
   - /permalink/p6
 categories:
   - Politics
+comments: false
 
 ---
 ### The Issue ###

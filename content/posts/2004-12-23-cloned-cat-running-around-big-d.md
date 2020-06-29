@@ -7,6 +7,7 @@ aliases:
   - /permalink/p19
 categories:
   - Science
+comments: false
 
 ---
 {{< figure src="/images/catbird.jpg" alt="Cat Devouring Bird by Picasso" class="right">}} From the _we need this like a hole in the head_ department, a service that used to offer commercial pet cloning: [Genetic Savings and Clone][1]. The first taker was [a lady in Dallas][2] that paid $50,000 for a clone of her cat. It makes perfect sense that the first case was from Dallas. I can picture her at the Junior League meeting, telling her colleague, &#8220;Well Buffy, I guess **your** cat will have to be content with being stuffed.&#8221;

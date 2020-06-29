@@ -7,6 +7,7 @@ aliases:
   - /permalink/p229
 categories:
   - Software Development
+comments: false
 
 ---
 I [previously posted][1] about a fix to a problem when the JQuery UI Autocomplete doesn’t play well with the ASP.Net MVC3 Remote validation. Part of the solution included a way to ensure that the remote validation isn’t fired for each key click or change of focus in the text box.

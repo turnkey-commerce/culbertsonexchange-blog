@@ -11,6 +11,7 @@ categories:
 tags:
   - hosting
   - Linode
+comments: false
 
 ---
 I decided to learn more about VPS ([Virtual Private Server](http://en.wikipedia.org/wiki/Virtual_Private_Server)) hosting and set up an account with Linode, a leader in affordable Linux VPS hosting. Basically a VPS host gives you a “slice” of a computer to use for hosting where you’re guaranteed a certain amount of the computer’s resources.  Also the virtual operating system is isolated from other user’s systems so you won’t be affected if somebody else on the server fouls up and pulls too much resources as can happen with shared hosting.

@@ -7,6 +7,7 @@ aliases:
   - /permalink/p8
 categories:
   - Internet
+comments: false
 
 ---
 ### The Open Source Movement ###

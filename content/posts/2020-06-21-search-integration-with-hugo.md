@@ -11,6 +11,7 @@ tags:
   - Wordpress
   - lunr.js
   - lunr
+comments: true
 ---
 
 While [migrating from a Wordpress site to a static site in Hugo]({{< relref "2020-06-07-migrating-blog-from-wordpress-to-hugo.md" >}}), I needed to implement some kind of search to replace the search available in the dynamic Wordpress site. There were several articles written about how to do this using the  [lunr.js](https://lunrjs.com/) search framework but I couldn't get some of them to work very well so decided to write this post in case anyone else is having similar trouble.

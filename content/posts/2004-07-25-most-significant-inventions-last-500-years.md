@@ -7,6 +7,7 @@ aliases:
   - /permalink/p5
 categories:
   - Science
+comments: false
 
 ---
 Last week Dad sent an email question to make us think and to get away from the usual email arguments about politics and religion. The question was, "What invention in the last 500 years has changed the world more than any other?".

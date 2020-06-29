@@ -7,6 +7,7 @@ aliases:
   - /permalink/p4
 categories:
   - Internet
+comments: false
 
 ---
 Extending on the theme of value from the web ([Wikipedia post]({{< relref "2004-06-21-wikipedia-open-source-encyclopedia.md" >}})), I checked out the [Project Gutenberg](http://www.gutenberg.net) website, and found that they have a great quantity of classic books that you can download for free to your computer or Palm Pilot.

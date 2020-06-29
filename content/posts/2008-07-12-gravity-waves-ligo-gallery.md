@@ -7,6 +7,7 @@ aliases:
   - /permalink/p48
 categories:
   - Science
+comments: false
 
 ---
 I had previously written on [&#8220;The Nature of Gravity&#8221;][1]. The National Science Foundation is building actual devices to measure gravity waves using laser [interferometry][2] which can be [viewed in this slide show][3]. Although they haven't detected the gravity waves yet they have made a discovery about the Crab Nebula.

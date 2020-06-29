@@ -11,6 +11,7 @@ categories:
 tags:
   - Apple
   - Steve Jobs
+comments: false
 
 ---
 ![Steve Jobs Billboard Different][1]

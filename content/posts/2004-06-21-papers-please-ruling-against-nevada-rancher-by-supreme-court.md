@@ -7,6 +7,7 @@ aliases:
   - /permalink/p7
 categories:
   - Politics
+comments: false
 
 ---
 Bad news today &#8211; the Supreme Court ruled that the police have a right to arrest after asking for one&#8217;s identity, even if there is no probable cause. &#8220;The Supreme Court has again given police greater power to stop and question suspects, ruling Monday that a Nevada cowboy could not refuse to give his name to officers who tried to question him along a roadside.&#8221; [Further Info on CNN](https://web.archive.org/web/20040623194410/http://www.cnn.com/2004/LAW/06/21/scotus.police.id/index.html)

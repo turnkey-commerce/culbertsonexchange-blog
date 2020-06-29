@@ -8,6 +8,7 @@ aliases:
 categories:
   - Internet
   - Software Development
+comments: false
 
 ---
 I just got Windows Live Writer set up and so far it seems to be a very nice way to edit a blog. It has a great preview function so you can see how the blog is going to look before you publish it, even before you save it as a draft locally to your computer, or publish it on the website.

@@ -8,6 +8,7 @@ aliases:
 categories:
   - Entertainment
   - General
+comments: false
 
 ---
 {{< figure src="/uploads/2007/02/fallen.jpg" alt="Fallen" >}}

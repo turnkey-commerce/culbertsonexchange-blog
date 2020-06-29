@@ -7,6 +7,7 @@ aliases:
   - /permalink/p18
 categories:
   - Entertainment
+comments: false
 
 ---
 {{< figure src="/images/sherlock1.jpg" alt="Sherlock at Door" class="right">}}We experienced something yesterday that was reminiscent of that old song from the 80&#8242;s, &#8220;Who Can it Be Now?&#8221;. We heard this subtle noise at the door and thought somebody might be knocking. We went to the door and were surprised to find it was Sherlock, the golden retriever from across the street.

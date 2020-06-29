@@ -8,6 +8,7 @@ aliases:
 categories:
   - Entertainment
   - General
+comments: false
 
 ---
 {{< figure src="/uploads/2008/06/mike_nova_thumb.jpg" alt="Mike and Nova" >}}

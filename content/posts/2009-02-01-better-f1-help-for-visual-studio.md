@@ -10,6 +10,7 @@ categories:
 tags:
   - IDE
   - Visual Studio
+comments: false
 
 ---
 The F1 Help key can be frustrating because it is very slow to invoke on Visual Studio. I figured out a way to make it faster by having it bring up a browser rather than the MS help. This technique will also work with the currently highlighted word.

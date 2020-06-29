@@ -13,6 +13,7 @@ tags:
   - unit tests
   - versioning
   - Web API
+comments: false
 
 ---
 I recently wrote about [a framework for Versioning ASP.Net Web API]({{< relref "2013-05-27-versioning-asp-net-web-api.md" >}}). Continuing on the theme of versioning API’s, I researched how to test the different versions of a Web API, both for unit tests and SpecFlow acceptance tests.

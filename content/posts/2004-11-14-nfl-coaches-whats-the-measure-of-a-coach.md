@@ -7,6 +7,7 @@ aliases:
   - /permalink/p12
 categories:
   - Sports
+comments: false
 
 ---
 {{< figure src="/images/wannstedt.jpg" alt="Dave Wannstedt" class="right">}}An interesting question came up as I thought about Dave Wannstedt quitting as head coach of the Miami Dolphins in the middle of the season and read the [Page 2 article by Skip Bayless][1]. When a team wins a Super Bowl, everyone is trying to hire the assistants, hoping to catch the magic. The question is &#8220;What makes a great coach?&#8221;. Is it a fiery dictator, like a Ditka or a Lombardi, or is it an architect of offenses or defenses, like a Walsh or a Belicheck? &#8220;That and a pair of testicles,&#8221; as _The Dude_ would say.

@@ -7,6 +7,7 @@ aliases:
   - /permalink/p28
 categories:
   - Science
+comments: false
 
 ---
 {{< figure src="/uploads/2007/01/mice_galaxies.jpg" alt="The Mice - Intersecting Galaxies" title="The Mice - Intersecting Galaxies" >}}

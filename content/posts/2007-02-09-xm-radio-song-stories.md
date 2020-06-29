@@ -8,6 +8,7 @@ aliases:
 categories:
   - Entertainment
   - General
+comments: false
 
 ---
 Cheryl gave me an [XM Satellite Radio][1] player for my birthday and it&#8217;s been one of those gifts that keep on giving. It was pretty easy to install in the car, the only trouble was running the wire from the antenna (placed on the roof near the back hatch) to the dash area. It has quite a few news, sports, and talk stations but I was mainly interested in it for the music and it thankfully that makes up the majority of the stations. The last thing I want to hear is some blowhard like Limbaugh giving his force-fed opinions to a bunch of ditto-heads or Stern salivating over the latest bimbo.

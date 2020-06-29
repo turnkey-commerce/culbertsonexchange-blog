@@ -9,6 +9,7 @@ categories:
   - Science
 tags:
   - Frost Flowers
+comments: false
 
 ---
 Our temperature dropped down into the low 20&#8242;s last night so I thought our area would be ripe for frost flowers (first freeze of the season, after having had some rain this week. Sure enough there were a bunch of them &#8211; a few right in our back yard! They are very rare and short-lived and a real cool phenomenon of nature. [Frost Flowers on Wikipedia][1]

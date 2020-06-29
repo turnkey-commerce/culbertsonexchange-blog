@@ -7,6 +7,7 @@ aliases:
   - /permalink/p10
 categories:
   - Sports
+comments: false
 
 ---
 It was probably inevitable, but the Dallas Cowboys stadium initiative [passed in Arlington last week][1]. This corporate welfare will be paid by the taxpayer and the majority of the benefit will go to Jerry Jones and associates. To the credit of the opposition, [they put up a good campaign against it][2] and kept the voting close.

@@ -7,6 +7,7 @@ aliases:
   - /permalink/p23
 categories:
   - General
+comments: false
 
 ---
 Memorial Day is a day to remember the sacrifices that the men and women in our armed forces make for our liberty. Since April 1775, the soldiers of America have fought and died for an abstract but important concept of &#8220;liberty&#8221;. At the time of those initial revolutionary battles the concept was not so abstract to the people as they had directly experienced being under a government that did not provide basic freedoms or due process for its citizens. A revolution was fought and won and a few years later an important document was written to guarantee that these hard-won freedoms would endure.

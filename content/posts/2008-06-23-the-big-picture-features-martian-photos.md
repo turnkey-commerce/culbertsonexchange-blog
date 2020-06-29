@@ -10,6 +10,7 @@ categories:
 tags:
   - Mars
   - Photos
+comments: false
 
 ---
 {{< figure src="/uploads/2008/06/earth_from_mars.png" alt="Earth Viewed from Mars Orbiter" >}}

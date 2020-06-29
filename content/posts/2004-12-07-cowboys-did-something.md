@@ -7,6 +7,7 @@ aliases:
   - /permalink/p14
 categories:
   - Sports
+comments: false
 
 ---
 I was really impressed by the rookie Julius Jones on the Monday Night Game last night. I even stayed up for the whole game and was rewarded by an unbelievable comeback by Dallas.

@@ -7,6 +7,7 @@ aliases:
   - /permalink/p42
 categories:
   - General
+comments: false
 
 ---
 One thing I noticed about the tragedy at Virginia Tech is that the media constantly played the monster&#8217;s video and kept mentioning the monster&#8217;s name. They were playing right into his hands and should have just left that video with law enforcement agencies. This kind of notoriety only encourages copy-cats and zeros that want to gain a sort of immortality to their name (also see Kennedy&#8217;s assassin and the Columbine scumbags for other examples).

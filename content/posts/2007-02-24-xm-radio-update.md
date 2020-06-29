@@ -8,6 +8,7 @@ aliases:
 categories:
   - Entertainment
   - General
+comments: false
 
 ---
 This is an update on the XM Satellite Radio that I wrote about earlier. I was able to improve the installation in the Matrix by adding a bracket that mounts it to the right of the radio and angles it toward the driver. Also, I wired the power inside the dash so I wouldn't have to keep using those bulky power plugs. The Sony dash unit was useful in that it has an Aux input that allows the signal to go straight from the XM Radio into the Sony unit. The direct connection is definitely an improvement over going through the FM receiver. Below is a picture of the XM radio in the cradle and hooked up to the Sony:

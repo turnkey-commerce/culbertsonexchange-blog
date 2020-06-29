@@ -7,6 +7,7 @@ aliases:
   - /permalink/p13
 categories:
   - Entertainment
+comments: false
 
 ---
 {{< figure src="/images/harryul.gif" alt="Harry Chapin" class="right" >}}I was thinking about [Harry Chapin][1] the other day. It was because Diane said something about Dayton, Ohio and it made me think about Harry&#8217;s _Mr. Tanner_ song (Mr. Tanner was a clothes cleaner from Dayton who aspired to be a singer). Harry was quite a guy and I had the pleasure of seeing him give a concert a few years before he died. He had a strong spirit for life and worked tirelessly to improve the plight of others. Unfortunately he died in 1981 in a fiery car accident.

@@ -7,6 +7,7 @@ aliases:
   - /permalink/p34
 categories:
   - Science
+comments: false
 
 ---
 The following link shows a cool visual illusion involving the shading of squares A and B that appear to the mind to be a much different shade. It's hard to believe but they are exactly the same shade of gray.

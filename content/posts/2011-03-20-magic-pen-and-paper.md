@@ -8,6 +8,7 @@ aliases:
 categories:
   - General
   - Software Development
+comments: false
 
 ---
 I bought a magic gadget from Best Buy called the [LiveScribe](http://www.livescribe.com/en-us/) smart pen and paper after watching a colleague using it for making notes during a meeting.

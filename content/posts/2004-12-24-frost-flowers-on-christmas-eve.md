@@ -7,6 +7,7 @@ aliases:
   - /permalink/p20
 categories:
   - Science
+comments: false
 
 ---
 {{< figure src="/images/frostflowers.jpg" alt="Frost flowers on Christmas Eve." class="right">}} We were taking a drive around the neighborhood today and noticed a strange phenomena in a field under an oak tree. There were a lot of white something-or-others attached to the plant stalks. Cheryl thought it looked like a bunch of styrofoam in the field. I got out of the car and walked up to one of the plants and realized it was ice attached to the plant stalks!
