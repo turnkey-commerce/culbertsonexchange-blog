@@ -22,7 +22,7 @@ When setting up the tests the database must first be registered as with txdb via
 
 {{< highlight "go" >}}
 func init() {
-	txdb.Register("txdb", "postgres", postgresDSN)
+  txdb.Register("txdb", "postgres", postgresDSN)
 }
 {{< / highlight >}}
 
@@ -32,8 +32,8 @@ Then in each test the "txdb" will be passed to the sql.Open function and the sec
 
 {{< highlight "go" >}}
 func TestCreateUserAndCategories(t *testing.T) {
-	db, err := sql.Open("txdb", "identifier")
-	defer db.Close()
+  db, err := sql.Open("txdb", "identifier")
+  defer db.Close()
   // Normal db commands and testing code follows...
 }
 {{< / highlight >}}
