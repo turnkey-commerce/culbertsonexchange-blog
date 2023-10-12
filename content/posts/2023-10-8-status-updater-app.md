@@ -57,18 +57,20 @@ front-end and the use of [Go language](https://go.dev/) in the backend. It is
 similar in concept to the [Electron](https://www.electronjs.org/) framework, but provides interoperability with native Go in the backend rather
 than [Node.js](https://nodejs.org/en).
 
-Wails was useful for this use case in that it allows for a familiar environment
+Wails was very useful for this use case in that it allows for a familiar environment
 for the front end using Typescript and CSS to build the UI. For developers
 that are familiar with front-end Javascript and HTML frameworks it makes it
-easy to iterate on the size and color of the buttons using CSS. The interoperability with GO and its built-in libraries allowed for easy implementation of the SMTP protocol for sending the messages when the button
-is clicked.
+easy to iterate on the size and color of the buttons using CSS. The interoperability
+with Go and its built-in libraries allowed for easy implementation of the SMTP protocol
+for sending the messages when the button is clicked.
 
 Additionally Wails is multi-platform with current support for Windows, Linux,
-and MacOS. In my use-case it was built as a Windows application since my
-father-in-law has a Windows machine. In the future Wails will also support
-Android and iOS which would allow for a tablet version of the app. A phone
+and MacOS desktops. In my use-case it was built as a Windows application since my
+father-in-law has a Windows machine. In the future Wails will also
+[support Android and iOS](https://github.com/wailsapp/wails/issues/1481)
+which would allow for a tablet version of the app. A smart phone
 app would also be possible although the buttons may not be big
-enough for such issues with sight.
+enough for users with such issues with sight.
 
 ## Code Repository
 
@@ -77,30 +79,3 @@ The code for this app is available on Github at
 
 The installable executable for Windows can be found at
 [status-updater Releases](https://github.com/turnkey-commerce/status-updater/releases).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
