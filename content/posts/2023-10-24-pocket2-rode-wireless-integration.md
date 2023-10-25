@@ -28,7 +28,7 @@ a solution to include a remote microphone by buying the "Creator Combo"
 with the camera but it's more expensive ($500 versus $350) and some better
 technology may be available from the folks that make microphones.
 
-## Nice Solution - RØDE Wireless ME
+## Nice Solution - RØDE Wireless ME Microphone System
 
 I noticed there were some YouTube videos about using the
 [RØDE Wireless ME](https://rode.com/en-us/microphones/wireless/wireless-me)
