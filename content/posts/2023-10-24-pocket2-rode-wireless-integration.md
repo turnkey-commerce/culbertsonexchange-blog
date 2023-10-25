@@ -4,10 +4,11 @@ date: 2023-10-24T10:00:00-05:00
 type: post
 author: James
 categories:
-  - General
+  - Videography
 tags:
-  - Microphone
-  - Video
+  - Videography
+  - DJI Pocket 2
+  - RØDE Wireless ME
 comments: true
 ---
 
@@ -93,12 +94,15 @@ but can be changed if you want both the transmitter and the receiver to be micro
 ## Testing Results
 
 I did some testing with the setup by having both the transmitter and receiver active
-as microphones. My wife used the transmitter microphone and walked ahead of me while
-talking.  I was also talking some as I carried the camera with the receiver microphone on.
+as microphones. My wife Cheryl used the transmitter microphone and walked ahead of me while
+talking.  I was also talking as I carried the camera with the receiver microphone on.
 Then we walked together to test whether there is any feedback or crosstalk.  During
-part of the walk it was windy so it was a good test of the effectiveness of the wind filters.
+the walk it was windy so it was a good test of the effectiveness of the wind filters.
 
 In all cases the setup performed really well and am much happier with the performance
-than with the default microphone. It should greatly improve the quality of videos when
+than with the default microphone. It should greatly improve the quality of our videos when
 hiking or walking around travel destinations.
 
+The test results are available on this [Youtube video](https://youtu.be/IPv2DhzXsH4),
+which starts with an example of the performance of the built-in Pocket 2 microphone
+and then includes the tests described in this section.
