@@ -29,10 +29,10 @@ be playing Texas A&M right after Christmas.
 I bought some inexpensive Walmart sneakers, took a picture of them, and then prototyped a
 design using the Paint.net program:
 
-![OSU Shoes Prototype](/images/osu_paint_prototype.jpg "OSU Shoes Prototype")
+![OSU Shoes Design](/images/osu_paint_prototype.jpg "OSU Shoes Design")
 
-**Note:** The colors in the prototype are a little bleached out because they were added as a
-layer that was at a reduced opacity to allow the background patterns of the shoe stitching
+**Note:** The colors in the design are a little bleached out because they were added as a
+top layer that was at a reduced opacity to allow the background patterns of the shoe stitching
 to show through.
 
 ### Step 2 - Prepare Surface and Tape
@@ -87,4 +87,6 @@ On the "Kobe Bryant" shoe project I did after this one I learned a lot about
 making the stencils for a logo and may make a run at redoing the logo for these
 shoes to replace the sticker.
 
-The next article will be on the Kobe Bryant shoe project for our grandson.
+The next article is about the Kobe Bryant shoe project for our grandson:
+
+[Painting Sneakers Part 2 - Kobe Bryant Sneakers]({{< relref "2024-01-25-painting-sneakers-kobe-bryant.md" >}})
