@@ -89,5 +89,3 @@ was removed from the soles and inside of the shoes.  They were then completed wi
 shoe string that Cheryl found online to get the final result:
 
 ![Final Kobe Sneakers](/images/kobe-sneakers-final.jpg "Final Kobe Sneakers")
-
-
