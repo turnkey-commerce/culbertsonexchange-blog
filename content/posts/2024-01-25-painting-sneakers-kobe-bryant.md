@@ -31,8 +31,8 @@ The final design looked like this:
 
 **Note:** The colors in the design are a little bleached out because they were added as a
 top layer that was at a reduced opacity to allow the background patterns of the shoe stitching
-to show through. Also, the final implementation the numbers on the purple background were changed
-to white for better contrast.
+to show through. Also, the final implementation the numbers were painted purple and the ones
+on the side were moved to the swish logo.
 
 ### Step 2 - Prepare Surface and Tape
 
@@ -48,4 +48,46 @@ Sneakers after surface prep and masking:
 ### Step 3 - Paint the Colors
 
 The shoes were first air-brushed purple in three coats. Then the tape was removed to reveal the
-unpainted parts:
+unpainted parts that were to be painted yellow:
+
+![Painted Purple Parts](/images/painted-purple-air-force-1.jpg "Painted Purple Parts")
+
+Then the yellow parts were painted in four coats by brush.  More coats were needed as the color
+is not as opaque:
+
+![Painted Yellow Parts](/images/painted-yellow-air-force-1.jpg "Painted Yellow Parts")
+
+### Step 4 - Stencils for Number and Logo
+
+For the numbers on the sides and backs I bought a pair of alpha-numeric stencils from a
+[Michaels](https://www.michaels.com/) store. For the "black mamba" logo I cut out a
+printed outline on printer paper using an X-Acto knife.
+These were the stencils I used:
+
+![Kobe Stencils](/images/kobe-stencils.jpg "Kobe Stencils")
+
+The numeric stencils from Michaels have an adhesive backing and are easy to line up and paint.
+I brush-painted the stencil areas with multiple coats being careful not to leak paint inside
+the stencil.  There was some correction to be made since a little paint sometimes leaked through.
+The final results of the numbers:
+
+![Kobe Numbers](/images/kobe-numbers.jpg "Kobe Numbers")
+
+The logo stencil was more difficult to work with since the surface wasn't flat and it had to
+be lined up properly to avoid the air holes in the front of the shoe. Instead of the paper and
+spray I found it was better to use "[Oracal 813 Masking Film](https://www.michaels.com/product/oracal-813-adhesive-stencil-film-10648453)".  The results looked reasonable considering the
+difficulty of hand-making the stencil:
+
+![Kobe Logo](/images/kobe-logo.jpg "Kobe Logo")
+
+## Step 5 - Finisher and Completion
+
+For the final finisher I sprayed three coats of the
+[Angelus Acrylic Matte Finisher](https://www.amazon.com/Angelus-Brand-Acrylic-Leather-Finisher/dp/B00B5W4LX4).
+This protects the finish and also tones down the shine a bit. Then the rest of the mask
+was removed from the soles and inside of the shoes.  They were then completed with a special Lakers
+shoe string that Cheryl found online to get the final result:
+
+![Final Kobe Sneakers](/images/kobe-sneakers-final.jpg "Final Kobe Sneakers")
+
+
