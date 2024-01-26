@@ -1,5 +1,5 @@
 ---
-title: "Painting Sneakers - A Fun Hobby"
+title: "Painting Sneakers Part 1 - OSU"
 date: 2024-01-24T15:00:00-06:00
 type: post
 author: James
@@ -8,6 +8,7 @@ categories:
 tags:
   - Painting Sneakers
   - Hobbies
+  - OSU
 comments: true
 ---
 
@@ -87,6 +88,10 @@ On the "Kobe Bryant" shoe project I did after this one I learned a lot about
 making the stencils for a logo and may make a run at redoing the logo for these
 shoes to replace the sticker.
 
-The next article is about the Kobe Bryant shoe project for our grandson:
+The next article in the series is about the Kobe Bryant shoe project for our grandson:
 
 [Painting Sneakers Part 2 - Kobe Bryant Sneakers]({{< relref "2024-01-25-painting-sneakers-kobe-bryant.md" >}})
+
+The third article in the series is about a Starry Night sneaker project for my wife:
+
+[Painting Sneakers Part 3 - Starry Night Sneakers]({{< relref "2024-01-26-painting-sneakers-starry-night.md" >}})

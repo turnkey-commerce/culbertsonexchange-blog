@@ -52,10 +52,11 @@ initial layout of this design looks like the following:
 top layer that was at a reduced opacity to allow the background patterns of the shoe stitching
 to show through.
 
-### Sirius and the Land (inner side)
+### Venus and the Land (inner side)
 
-This side will feature the bright star Sirius as well as some of the elements of the land
-including the clouds, mountains, and the village church.
+This side will feature the bright star Venus as well as some of the
+elements of the land including the clouds, mountains, and the village
+church.
 
 ![Starry Night Inner Design](/images/starry-night-inner-design.jpg "Starry Night Inner Design")
 
@@ -75,6 +76,9 @@ The inner side was then painted according to the design and it had different cha
 the textures of the hills and the yellow moon highlights on the low clouds.
 
 Then once that was done the whole process had to be repeated for the other shoe.
+
+The paints I used for this step were from this paint set:
+[Angelus Leather Paint Starter Kit Set of 12](https://www.amazon.com/Angelus-Leather-Paint-Set-12/dp/B01MFGALN9).
 
 ## Step 4 - Painting Top Front
 

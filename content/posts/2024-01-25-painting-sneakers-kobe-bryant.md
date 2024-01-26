@@ -57,6 +57,10 @@ is not as opaque:
 
 ![Painted Yellow Parts](/images/painted-yellow-air-force-1.jpg "Painted Yellow Parts")
 
+The paints I used for this step were
+[Angelus Purple Acrylic Leather Paint](https://www.amazon.com/Angelus-Acrylic-Leather-Paint-Purple/dp/B0196T9LV4) and
+[Angelus Yellow Acrylic Leather Paint](https://www.amazon.com/Angelus-Acrylic-Leather-Paint-Yellow/dp/B01N6QQZ58).
+
 ### Step 4 - Stencils for Number and Logo
 
 For the numbers on the sides and backs I bought a pair of alpha-numeric stencils from a
@@ -89,3 +93,7 @@ was removed from the soles and inside of the shoes.  They were then completed wi
 shoe string that Cheryl found online to get the final result:
 
 ![Final Kobe Sneakers](/images/kobe-sneakers-final.jpg "Final Kobe Sneakers")
+
+The next article in the series is about a Starry Night sneaker project for my wife:
+
+[Painting Sneakers Part 3 - Starry Night Sneakers]({{< relref "2024-01-26-painting-sneakers-starry-night.md" >}})
