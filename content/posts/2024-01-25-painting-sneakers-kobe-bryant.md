@@ -21,8 +21,8 @@ in particular he wanted shoes that would honor Kobe Bryant.
 We went to Dick's Sporting Goods to buy a pair of white [Nike Air Force 1](https://en.wikipedia.org/wiki/Nike_Air_Force#/media/File:Nike_air_Force_1_white_on_white.jpg). Then I took pictures of the shoes to
 use for design on the computer on the Paint.net application.
 
-Austin wanted to include the jersey numbers that Kobe had with the Lakers, with 8 on the outside
-sides of both shoes and 33 on the back. He also wanted Kobe's high-school number 24 on the inside sides of the shoes. For the front he wanted the black mamba logo. The Lakers colors of purple and yellow
+Austin wanted to include the jersey numbers that Kobe had with the Lakers, with 8 on the outside and 24 on the inside sides of the shoes.
+He also wanted Kobe's high-school number 33 on the back of the shoes. For the front he wanted the black mamba logo. The Lakers colors of purple and yellow
 were to be used.
 
 The final design looked like this:
@@ -94,8 +94,7 @@ shoe string that Cheryl found online to get the final result:
 
 ![Final Kobe Sneakers](/images/kobe-sneakers-final.jpg "Final Kobe Sneakers")
 
-We gave them to Austin for Christmas and he was really happy with how they
-turned out!
+We gave them to Austin for Christmas and he was really happy with how they turned out!
 
 The next article in the series is about a Starry Night sneaker project for my wife:
 
