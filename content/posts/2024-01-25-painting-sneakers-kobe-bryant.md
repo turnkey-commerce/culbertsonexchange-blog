@@ -94,6 +94,9 @@ shoe string that Cheryl found online to get the final result:
 
 ![Final Kobe Sneakers](/images/kobe-sneakers-final.jpg "Final Kobe Sneakers")
 
+We gave them to Austin for Christmas and he was really happy with how they
+turned out!
+
 The next article in the series is about a Starry Night sneaker project for my wife:
 
 [Painting Sneakers Part 3 - Starry Night Sneakers]({{< relref "2024-01-26-painting-sneakers-starry-night.md" >}})
