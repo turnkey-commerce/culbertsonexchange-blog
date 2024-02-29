@@ -96,6 +96,8 @@ shoe string that Cheryl found online to get the final result:
 
 We gave them to Austin for Christmas and he was really happy with how they turned out!
 
+## Related Articles
+
 The next article in the series is about a Starry Night sneaker project for my wife:
 
-[Painting Sneakers Part 3 - Starry Night Sneakers]({{< relref "2024-01-26-painting-sneakers-starry-night.md" >}})
+[Painting Sneakers Part 3 - Starry Night]({{< relref "2024-01-26-painting-sneakers-starry-night.md" >}})

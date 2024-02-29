@@ -119,3 +119,9 @@ Some light blue shoe laces that Cheryl found online were then added to the shoes
 ![Final Starry Night Sneakers Outer](/images/starry-night-outer-final.jpg "Final Starry Night Sneakers Outer")
 
 ![Final Starry Night Sneakers Inner](/images/starry-night-inner-final.jpg "Final Starry Night Sneakers Inner")
+
+## Related Articles
+
+[Painting Sneakers Part 1 - OSU]({{< relref "2024-01-24-painting-sneakers.md" >}})
+
+[Painting Sneakers Part 2 - Kobe Bryant]({{< relref "2024-01-25-painting-sneakers-kobe-bryant.md" >}})

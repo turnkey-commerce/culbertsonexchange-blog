@@ -88,10 +88,43 @@ On the "Kobe Bryant" shoe project I did after this one I learned a lot about
 making the stencils for a logo and may make a run at redoing the logo for these
 shoes to replace the sticker.
 
+## Update - January 2024
+
+The sticker wasn't satisfactory for long-term use because it would separate
+from the shoes at the edges due to the curvature of the shoe. I decided to remove it
+and try the stencil like I used on the "Kobe Bryant" project.
+
+To make the stencil I used
+"[Oracal 813 Stencil Film](https://www.michaels.com/product/oracal-813-adhesive-stencil-film-10648453)".
+I reversed an outline of the OSU logo and then taped it to the top of the
+stencil and cut through it with an X-Acto knife. The reverse mirror image was necessary
+because the sticky material on the stencil is on the top paper that will be removed:
+
+<img src="/images/osu_stencil.jpg"
+     style="margin: 0px 5px 5px 0px; width:300px; border:0;" alt="Cut OSU Stencil" title="Cut OSU Stencil" />
+
+The stencil backing was then removed and attached to the shoe and hand painted black.
+One thing that helps is not to apply light coats multiple times to avoid the paint
+seeping under the stencil.
+
+![Painted OSU Stencil](/images/osu_stencil_painted.jpg "Painted OSU Stencil")
+
+After the paint dried and the stencil removed there were a few areas of touch-up required:
+
+* Filling in the blank areas caused by the little "bridges" that held the stencil together.
+* Painting over the paint that seeped underneath the stencil.
+* Thickening a few points that came out too thin from cutting inaccuracies.
+
+The final result came out OK and looks better integrated than the original sticker.
+
+![Completed OSU Logo](/images/osu_stencil_completed.jpg "Completed OSU Logo")
+
+## Related Articles
+
 The next article in the series is about the Kobe Bryant shoe project for our grandson:
 
-[Painting Sneakers Part 2 - Kobe Bryant Sneakers]({{< relref "2024-01-25-painting-sneakers-kobe-bryant.md" >}})
+[Painting Sneakers Part 2 - Kobe Bryant]({{< relref "2024-01-25-painting-sneakers-kobe-bryant.md" >}})
 
 The third article in the series is about a Starry Night sneaker project for my wife:
 
-[Painting Sneakers Part 3 - Starry Night Sneakers]({{< relref "2024-01-26-painting-sneakers-starry-night.md" >}})
+[Painting Sneakers Part 3 - Starry Night]({{< relref "2024-01-26-painting-sneakers-starry-night.md" >}})
