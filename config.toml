@@ -9,11 +9,6 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [permalinks]
   posts = "/:slug/"
 
-[Author]
-  name = "James Culbertson"
-  #bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
-  avatar = "img/avatar.png"
-
 [Params]
   mainSections = ["post"]
   description = "Welcome to James Culbertson’s blog. James is a software engineer who lives in the Houston area with Cheryl, Gracie, and Stanley." # Description of your site
@@ -24,6 +19,9 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
   pager = true
   post_meta = ["date", "categories"] # Order of post meta information
   customCSS = ["css/site.css"]
+  
+[Params.author]
+  name = "James Culbertson"
 
 [Params.logo]
   subtitle = "Discussions on topics of interest and application development…" # Logo subtitle
