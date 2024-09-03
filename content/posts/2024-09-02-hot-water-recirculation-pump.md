@@ -10,11 +10,11 @@ tags:
 comments: true
 ---
 
-We recently moved to a new house in Las Cruces, New Mexico and have settled to
-the point of being free of moving boxes and the house is mostly decorated. One thing we
+We recently moved to a new house in Las Cruces, New Mexico and are working
+out a few minor issues. One thing we
 noticed is that the shower in the main bathroom takes a long time to get hot water.
-That is not very convenient and also it's not cool to waste water in
-the [Chihuahuan Desert](https://en.wikipedia.org/wiki/Chihuahuan_Desert) by running the
+That is not very convenient and not cool to waste water in
+the [Chihuahuan Desert](https://en.wikipedia.org/wiki/Chihuahuan_Desert) by running
 cold water until it heats up. The reason for this problem is that the master bathroom is a long
 run from the hot water heater that's in the garage and the hot water has to displace all of
 the cold water already in the pipe.
@@ -30,13 +30,14 @@ warm up time for the water and there would be the same delay issue in other part
 The most appealing solution looked to be a hot water recirculating system that would be timed
 to deliver hot water when we typically need it in the morning.
 
-The idea of the recirculating system is that a pump attached to the hot line at the water
-heater pumps hot water out and a bypass valve located far away from the hot water heater returns
-the cold water to the water heater. Once the bypass valve sees water at a temperature of 100
-degrees F, it closes and no more cold water will flow back.  At that point the hot water has
+The idea of the recirculating system is that a pump is attached to the hot line of the water
+heater to pump hot water out even when the hot water is not in use. Then a bypass valve
+located far away from the hot water heater returns the cold water to the water heater.
+Once the bypass valve sees water at a temperature of 100
+degrees, it closes and no more cold water will flow back.  At that point the hot water has
 replaced the cold water in the hot water line and the shower will immediately deliver hot water.
 The idea is that the pump is only turned on at times there will be a demand so that the system
-doesn't waste gas to heat water when it isn't needed.
+doesn't waste natural gas to heat water when it isn't needed.
 
 We bought a [Watts Hot Water Recirculating System](https://www.homedepot.com/p/Watts-Hot-Water-Recirculating-System-with-Built-In-Timer-0955800/100426993) at Home Depot
 and (spoiler altert) it turned out to be a nice solution.
@@ -54,9 +55,9 @@ At this point the gas and the hot water heater can be turned back on.
 ### Installation Part 2 - Installing Sensor Valve Under the Sink
 
 The next step is to install the sensor valve under the sink that is farthest from the hot water heater.
-The reason for the farthest sink is that it will force the hot water through the whole length of the
-pipes in the house, especially given the delay problem is usually at the farthest distance from the hot
-water heater.
+The reason for using the farthest sink is that it will force the hot water through the whole length of the
+pipes in the house, especially given the delay problem is usually at the farthest distance
+from the hot water heater.
 
 The valve comes with hoses that are used to route the water from the hot-supply side to the left side of
 the valve. That side also has an outlet that routes back to the faucet.  Then the same arrangement is made
@@ -65,11 +66,11 @@ on the right side of the valve with the cold water as shown:
 ![Watts Sensor Valve Under the Sink](/images/watts-sensor-valve.jpg "Watts Sensor Valve Under the Sink")
 
 There is a valve in the middle of the sensor that is normally open to allow the hot water that is
-being pumped to flow from left to right from hot to the cold water side. Once the water temperature
+being pumped to flow from left to right from the hot water to the cold water side. Once the water temperature
 reaches 100 degrees the valve will close and no water will flow across since at that point the hot
 water side is ready. The idea is that while the water heater is warming up the water in the hot
-side by replacing the cold water in the pipe, the water can recirculate back to the hot water heater
-inlet and keep the system flowing.
+side by replacing the cold water in the pipe, the cold water can recirculate back to the
+hot water heater inlet and keep the system flowing.
 
 ### Operating the System
 
@@ -98,6 +99,6 @@ It would be a good choice for this problem and I plan on making that change in t
 
 ### In Conclusion
 
-After testing it with a real life case of showering in the morning it worked really well and
+Upon testing it with a real life test of showering in the morning it worked really well and
 provided hot water instantly without wasting any water waiting for the the hot water to be available.
-With the addition of a smart plug as a timing mechanism the system will be even better and more flexible.
+With the addition of a smart plug as a timing mechanism the system will be more reliable and flexible.
