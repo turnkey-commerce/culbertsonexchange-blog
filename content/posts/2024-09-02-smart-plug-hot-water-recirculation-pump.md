@@ -48,7 +48,7 @@ from a picture that I took earlier and this is what it looks like from the app's
 
 ![Kasa App Devices](/images/kasa-app-devices.png "Kasa App Devices")
 
-The button to the right of each device can be used to turn the plug on and off manually
+The button to the right of each device can be used to turn the plug on and off remotely
 from any location.
 
 #### Scheduling the Plug
@@ -60,6 +60,11 @@ by adding the times for the app:
 ![Kasa App Scheduling](/images/kasa-app-schedule.png "Kasa App Scheduling")
 
 These timings are very precise and are based on the time from the network.
+
+#### Integration With Google Home and Amazon Alexa
+
+The Kasa app can also integrate with Google Home and Amazon Alexa which allows for voice
+commands to control the pump directly. For example: "OK Google, turn on the Hot Water Pump".
 
 ### In Conclusion
 
