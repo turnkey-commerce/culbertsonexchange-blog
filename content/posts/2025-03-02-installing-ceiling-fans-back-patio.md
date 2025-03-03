@@ -120,3 +120,5 @@ biggest challenges in the project were the removal of the old electrical box, th
 of the braced electrical box, and the matching of the existing paint to finish the project.
 The ceiling fan itself was easy to install thanks to the nice
 the "QuickFit" installation provided by Hampton Bay fans.
+
+![Ceiling Fan Installation Completed ](/images/ceiling-fan-installation-completed.jpg "Ceiling Fan Installation Completed")
