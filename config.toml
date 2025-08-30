@@ -1,7 +1,7 @@
 baseURL = "http://www.culbertsonexchange.com/"
 languageCode = "en-us"
 title = "Culbertson Exchange"
-paginate = "10" # Number of posts per page
+pagination.pagersize = "10" # Number of posts per page
 theme = "mainroad"
 disqusShortname = "culbertson-exchange" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
