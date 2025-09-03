@@ -44,7 +44,7 @@ There are several alternatives:
 
 **Pros**
   * Gets the security updates to keep it running another year.
-  * Not too expensive ($10 for home users)
+  * Not too expensive ($30 for home users)
 
 **Cons**
   * Probably won't work with some programs such as [TurboTax 2025](https://ttlc.intuit.com/turbotax-support/en-us/help-article/download-products/end-support-windows-8-affect-turbotax-experience/L4v9atO3O_US_en_US?uid=mf1kwbok "Turbo Tax 2025").
